@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "liquid-legal"
 version = "0.1.0"
-description = "Liquid neural networks (LTC/CfC) for legal case trajectory modeling: settlement probability, expected recovery, and remaining duration from irregular docket event streams."
+description = "An experimental toolkit for modeling and benchmarking irregular legal-event trajectories with liquid, recurrent, and attention-based neural models."
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.10"

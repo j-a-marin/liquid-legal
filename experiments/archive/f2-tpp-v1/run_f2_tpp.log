@@ -1,0 +1,92 @@
+=== F2 v1: tf-tpp under F2_PREREGISTRATION.md (frozen) ===
+candidate params: 23030 (tf-native-aux 23,129; budget +/-20%)
+
+--- generator validation (section 6, architecture-independent) ---
+gen-val probe seed=0: silence-probe AUC hist+elapsed=0.8234 hist-only=0.8210 lift=+0.0024
+gen-val probe seed=1: silence-probe AUC hist+elapsed=0.7974 hist-only=0.7897 lift=+0.0077
+gen-val probe seed=2: silence-probe AUC hist+elapsed=0.8139 hist-only=0.8077 lift=+0.0063
+per-mark gap quantiles: 13 marks, n range 458..5250, min (q90-q10) spread 9.4 d (non-degenerate)
+silence probe lift (hist+elapsed - hist-only): +0.0055 +/- 0.0068 (df=2; descriptive, no pass/fail)
+
+--- lr selection (seed-0 inner split) ---
+selected lr=0.001 for tf-tpp/hidden (9s)
+selected lr=0.003 for tf-tpp/visible (17s)
+
+--- training tf-tpp (frozen protocol) ---
+seed=0 trained tf-tpp/hidden   auc=0.860 (6.1s, total 23s)
+seed=0 trained tf-tpp/visible  auc=0.884 (6.1s, total 29s)
+seed=1 trained tf-tpp/hidden   auc=0.837 (6.2s, total 36s)
+seed=1 trained tf-tpp/visible  auc=0.835 (6.2s, total 42s)
+seed=2 trained tf-tpp/hidden   auc=0.859 (6.2s, total 48s)
+seed=2 trained tf-tpp/visible  auc=0.860 (6.3s, total 54s)
+seed=3 trained tf-tpp/hidden   auc=0.843 (6.3s, total 61s)
+seed=3 trained tf-tpp/visible  auc=0.846 (6.3s, total 67s)
+seed=4 trained tf-tpp/hidden   auc=0.860 (6.2s, total 73s)
+seed=4 trained tf-tpp/visible  auc=0.866 (6.2s, total 80s)
+seed=5 trained tf-tpp/hidden   auc=0.821 (6.3s, total 86s)
+seed=5 trained tf-tpp/visible  auc=0.829 (6.2s, total 92s)
+seed=6 trained tf-tpp/hidden   auc=0.838 (6.3s, total 99s)
+seed=6 trained tf-tpp/visible  auc=0.840 (6.3s, total 105s)
+seed=7 trained tf-tpp/hidden   auc=0.850 (6.5s, total 111s)
+seed=7 trained tf-tpp/visible  auc=0.851 (6.4s, total 118s)
+seed=8 trained tf-tpp/hidden   auc=0.864 (6.3s, total 124s)
+seed=8 trained tf-tpp/visible  auc=0.879 (6.3s, total 130s)
+seed=9 trained tf-tpp/hidden   auc=0.849 (6.3s, total 137s)
+seed=9 trained tf-tpp/visible  auc=0.856 (6.3s, total 143s)
+
+--- evaluation (J + guards; hidden primary, visible secondary) ---
+seed=0 hidden: J tpp=1.6307 aux=1.4732 (143s)
+seed=1 hidden: J tpp=1.6557 aux=1.4308 (143s)
+seed=2 hidden: J tpp=1.7045 aux=1.4641 (143s)
+seed=3 hidden: J tpp=1.7073 aux=1.4185 (144s)
+seed=4 hidden: J tpp=1.7357 aux=1.4434 (144s)
+seed=5 hidden: J tpp=1.6773 aux=1.4431 (144s)
+seed=6 hidden: J tpp=1.6206 aux=1.4589 (144s)
+seed=7 hidden: J tpp=1.6816 aux=1.4815 (144s)
+seed=8 hidden: J tpp=1.6004 aux=1.3943 (144s)
+seed=9 hidden: J tpp=1.5913 aux=1.4015 (144s)
+cross-check tf-native-aux hidden settle AUC vs stage1_baselines.json of record: max |diff| = 0.00e+00 (MATCH)
+
+--- supporting descriptive baselines (hidden, never screened) ---
+sm-empirical next-gap pinball: 0.2667; cr-discrete settle AUC(180d): 0.7818
+
+=== PRIMARY SCREEN (section 4, hidden statics, paired by seed) ===
+mean paired relative J reduction: -0.1526 (required >= 0.03) -> FAIL
+95% paired t-interval (df=9): [-0.1762, -0.1290] -> includes zero: FAIL
+guard settle_auc      delta=-0.0012                                 (>= -0.005) -> PASS
+guard ece             delta=+0.0069                                 (<= +0.01) -> PASS
+guard duration_mae    ratio=1.0161                                  (<= +5%) -> PASS
+guard next_type_acc   delta=-0.0297                                 (>= -0.01) -> FAIL
+guard wall_clock      tpp=6.3s vs 2x25.7s                           (<= 2x archived mean) -> PASS
+guard stability       0 events, 20/20 runs                          (zero NaN/Inf events and all 10 seeds x 2 regimes) -> PASS
+
+VERDICT: KILLED — killed candidate (interval-supervision branch on Generator v2 terminated per section 4)
+
+--- subgroup analyses (section 8, EXPLORATORY) ---
+  delta_quartile/q1           rel J red -0.1941 +/- 0.0337 (seeds=10, holm_p=1.1450690534847173e-06)
+  delta_quartile/q2           rel J red -0.1401 +/- 0.0254 (seeds=10, holm_p=1.1450690534847173e-06)
+  delta_quartile/q3           rel J red -0.1422 +/- 0.0229 (seeds=10, holm_p=7.821984575788148e-07)
+  delta_quartile/q4           rel J red -0.1490 +/- 0.0275 (seeds=10, holm_p=1.1450690534847173e-06)
+  long_gap/le_90d       rel J red -0.1535 +/- 0.0231 (seeds=10, holm_p=2.178777465159728e-07)
+  long_gap/gt_90d       rel J red -0.1501 +/- 0.0268 (seeds=10, holm_p=4.802766274498387e-07)
+  age_quartile/q1           rel J red -0.2494 +/- 0.0469 (seeds=10, holm_p=1.4992626831954605e-06)
+  age_quartile/q2           rel J red -0.1362 +/- 0.0218 (seeds=10, holm_p=7.635773965709935e-07)
+  age_quartile/q3           rel J red -0.1246 +/- 0.0219 (seeds=10, holm_p=1.278507148149214e-06)
+  age_quartile/q4           rel J red -0.1547 +/- 0.0320 (seeds=10, holm_p=1.702081211684415e-06)
+  phase/early        rel J red -0.1704 +/- 0.0249 (seeds=10, holm_p=2.6190151579852334e-07)
+  phase/mid          rel J red -0.1355 +/- 0.0254 (seeds=10, holm_p=1.4462490211515764e-06)
+  phase/late         rel J red -0.1607 +/- 0.0331 (seeds=10, holm_p=1.615738324209734e-06)
+  seq_length/short        rel J red -0.1622 +/- 0.0284 (seeds=10, holm_p=6.512464180081987e-07)
+  seq_length/long         rel J red -0.1436 +/- 0.0245 (seeds=10, holm_p=6.512464180081987e-07)
+  backlog/in_episode   rel J red -0.1505 +/- 0.0317 (seeds=10, holm_p=1.982475102458249e-06)
+  backlog/outside      rel J red -0.1539 +/- 0.0203 (seeds=10, holm_p=6.895644341954851e-08)
+  adverse_regime/adverse      rel J red -0.1554 +/- 0.0304 (seeds=10, holm_p=1.0638829721120071e-06)
+  adverse_regime/not_adverse  rel J red -0.1516 +/- 0.0221 (seeds=10, holm_p=1.6871701552565784e-07)
+  selective_obs/selective    rel J red -0.0814 +/- 0.0168 (seeds=10, holm_p=1.68925443062048e-06)
+  selective_obs/always       rel J red -0.2561 +/- 0.0438 (seeds=10, holm_p=6.732476221131367e-07)
+  discovery_stall/stall_case   rel J red -0.1410 +/- 0.0215 (seeds=10, holm_p=2.4604556437196707e-07)
+  discovery_stall/no_stall     rel J red -0.1675 +/- 0.0311 (seeds=10, holm_p=6.797428962325618e-07)
+
+--- mechanism checks M1/M2: NOT RUN (gated; screen failed) ---
+
+wrote /Users/jam3/Projects/liquid_neural/experiments/results/f2_tpp.json

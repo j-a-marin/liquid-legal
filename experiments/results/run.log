@@ -1,0 +1,109 @@
+seed=0 trained cfc-native           auc=0.893 (7s)
+seed=0 trained cfc-timespans_only   auc=0.899 (13s)
+seed=0 trained cfc-feature          auc=0.907 (20s)
+seed=0 trained cfc-none             auc=0.923 (26s)
+seed=0 trained lstm-feature         auc=0.931 (29s)
+seed=0 trained lstm-none            auc=0.933 (32s)
+/Users/jam3/Projects/liquid_neural/src/liquid_legal/baselines.py:129: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer, num_layers=num_layers)
+seed=0 trained tf-native            auc=0.934 (38s)
+seed=0 trained tf-timespans_only    auc=0.938 (44s)
+seed=0 trained tf-feature           auc=0.936 (49s)
+seed=0 trained tf-none              auc=0.941 (55s)
+seed=0 trained xgb                  auc=0.932 (60s)
+seed=0 trained xgb-no-time          auc=0.932 (60s)
+seed=0 e3 done (60s)
+seed=0 e4 done (62s)
+seed=0 e5 done (62s)
+seed=1 trained cfc-native           auc=0.873 (69s)
+seed=1 trained cfc-timespans_only   auc=0.877 (75s)
+seed=1 trained cfc-feature          auc=0.890 (82s)
+seed=1 trained cfc-none             auc=0.885 (89s)
+seed=1 trained lstm-feature         auc=0.894 (91s)
+seed=1 trained lstm-none            auc=0.896 (94s)
+seed=1 trained tf-native            auc=0.903 (100s)
+seed=1 trained tf-timespans_only    auc=0.904 (106s)
+seed=1 trained tf-feature           auc=0.903 (112s)
+seed=1 trained tf-none              auc=0.903 (118s)
+seed=1 trained xgb                  auc=0.900 (122s)
+seed=1 trained xgb-no-time          auc=0.902 (122s)
+seed=1 e3 done (123s)
+seed=1 e4 done (125s)
+seed=1 e5 done (125s)
+seed=2 trained cfc-native           auc=0.848 (131s)
+seed=2 trained cfc-timespans_only   auc=0.881 (138s)
+seed=2 trained cfc-feature          auc=0.895 (144s)
+seed=2 trained cfc-none             auc=0.889 (151s)
+seed=2 trained lstm-feature         auc=0.916 (153s)
+seed=2 trained lstm-none            auc=0.908 (156s)
+seed=2 trained tf-native            auc=0.889 (162s)
+seed=2 trained tf-timespans_only    auc=0.883 (168s)
+seed=2 trained tf-feature           auc=0.896 (174s)
+seed=2 trained tf-none              auc=0.889 (179s)
+seed=2 trained xgb                  auc=0.913 (183s)
+seed=2 trained xgb-no-time          auc=0.915 (183s)
+seed=2 e3 done (184s)
+seed=2 e4 done (186s)
+seed=2 e5 done (186s)
+
+wrote /Users/jam3/Projects/liquid_neural/experiments/results/results.json (186s)
+
+=== E2: full model matrix (mean ± std over seeds) ===
+cfc-native           params=  15,898 auc=0.871±0.018 dur_mae=155±22d
+cfc-timespans_only   params=  15,898 auc=0.886±0.010 dur_mae=154±21d
+cfc-feature          params=  15,898 auc=0.897±0.007 dur_mae=149±25d
+cfc-none             params=  15,898 auc=0.899±0.017 dur_mae=151±24d
+lstm-feature         params=  24,259 auc=0.914±0.015 dur_mae=146±19d
+lstm-none            params=  24,259 auc=0.912±0.015 dur_mae=153±29d
+tf-native            params=  22,403 auc=0.909±0.019 dur_mae=154±24d
+tf-timespans_only    params=  22,403 auc=0.908±0.023 dur_mae=158±30d
+tf-feature           params=  22,403 auc=0.911±0.018 dur_mae=149±23d
+tf-none              params=  22,403 auc=0.911±0.022 dur_mae=153±25d
+xgb                  params=     n/a auc=0.915±0.013 dur_mae=146±20d
+xgb-no-time          params=     n/a auc=0.917±0.012 dur_mae=144±20d
+
+=== E3: dropout stress (settle AUC, mean over seeds) ===
+model                     0%     10%     20%     30%     50%
+cfc-native             0.871   0.867   0.867   0.869   0.872
+cfc-timespans_only     0.886   0.883   0.881   0.878   0.873
+cfc-feature            0.897   0.896   0.896   0.894   0.893
+lstm-feature           0.914   0.914   0.915   0.912   0.913
+tf-native              0.909   0.911   0.909   0.907   0.901
+tf-feature             0.911   0.912   0.912   0.912   0.910
+xgb                    0.915   0.916   0.916   0.914   0.913
+xgb-no-time            0.917   0.917   0.918   0.915   0.916
+
+=== E3: jitter stress (settle AUC, mean over seeds) ===
+model                     0%     10%     25%
+cfc-native             0.871   0.860   0.835
+cfc-timespans_only     0.886   0.872   0.853
+cfc-feature            0.897   0.891   0.877
+lstm-feature           0.914   0.908   0.896
+tf-native              0.909   0.904   0.891
+tf-feature             0.911   0.906   0.894
+xgb                    0.915   0.912   0.904
+xgb-no-time            0.917   0.915   0.907
+
+=== E4: judge probe (mean Spearman judge_speed vs predicted remaining days) ===
+cfc-native           r=0.564±0.090
+lstm-feature         r=0.903±0.069
+tf-native            r=0.869±0.126
+
+=== E5: saliency by event type (seed 0, mean per occurrence) ===
+FILED                    3.3774  (n=204)
+MOTION_SUMMARY_JUDGMENT  3.1430  (n=65)
+MOTION_TO_COMPEL         2.1924  (n=100)
+DEPOSITION               1.6398  (n=426)
+MOTION_TO_DISMISS        1.5431  (n=121)
+SETTLEMENT_OFFER         1.3352  (n=323)
+ANSWER                   1.2284  (n=204)
+DISCOVERY_OPEN           1.0872  (n=163)
+DISCOVERY_CLOSE          1.0596  (n=130)
+TRIAL_DATE_SET           1.0109  (n=64)
+MEDIATION                0.9122  (n=93)
+EXPERT_DISCLOSURE        0.6907  (n=260)
+VERDICT                  0.6296  (n=1)
+TRIAL_START              0.2066  (n=1)
+SETTLED                  0.0675  (n=148)
+DISMISSED                0.0216  (n=55)
+MOTION_TO_COMPEL saliency low-cap=3.4986 high-cap=1.2668

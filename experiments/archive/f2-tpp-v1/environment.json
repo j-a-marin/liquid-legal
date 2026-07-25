@@ -1,0 +1,8 @@
+{
+  "python": "3.14.6",
+  "torch": "2.13.0",
+  "numpy": "2.5.1",
+  "platform": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+  "uname": "Darwin Mac.lan 24.6.0 Darwin Kernel Version 24.6.0: Wed Nov  5 21:32:38 PST 2025; root:xnu-11417.140.69.705.2~1/RELEASE_ARM64_T6031 arm64",
+  "run_at": "2026-07-25T10:54:37"
+}

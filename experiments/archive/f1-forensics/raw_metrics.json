@@ -1,0 +1,1934 @@
+{
+  "per_seed": {
+    "0": {
+      "conditions": {
+        "baseline": {
+          "settle_auc": 0.8644585701841304,
+          "duration_mae_days": 336.8277729078388,
+          "recovery_mae_log": 3.7207140940784953,
+          "ece": 0.029430144923611287,
+          "next_type_acc": 0.5253606328524896,
+          "next_gap_pinball": 0.26936808228492737,
+          "duration_pinball": 0.3066309094429016
+        },
+        "zero_event_head": {
+          "settle_auc": 0.8554374762183451,
+          "duration_mae_days": 372.83075888921013,
+          "recovery_mae_log": 3.686863552495565,
+          "ece": 0.05193113195252731,
+          "next_type_acc": 0.4183341088878548,
+          "next_gap_pinball": 0.2770046889781952,
+          "duration_pinball": 0.3354880213737488
+        },
+        "zero_event_hard": {
+          "settle_auc": 0.8554374762183451,
+          "duration_mae_days": 372.83075888921013,
+          "recovery_mae_log": 3.686863552495565,
+          "ece": 0.05193113195252731,
+          "next_type_acc": 0.4183341088878548,
+          "next_gap_pinball": 0.2770046889781952,
+          "duration_pinball": 0.3354880213737488
+        },
+        "zero_clock_head": {
+          "settle_auc": 0.8587065483813022,
+          "duration_mae_days": 826.6635710400075,
+          "recovery_mae_log": 3.5852788502846784,
+          "ece": 0.0518252333326133,
+          "next_type_acc": 0.5169846440204746,
+          "next_gap_pinball": 0.2677203118801117,
+          "duration_pinball": 0.31355610489845276
+        },
+        "zero_clock_hard": {
+          "settle_auc": 0.8587065483813022,
+          "duration_mae_days": 826.6635710400075,
+          "recovery_mae_log": 3.5852788502846784,
+          "ece": 0.0518252333326133,
+          "next_type_acc": 0.5169846440204746,
+          "next_gap_pinball": 0.2677203118801117,
+          "duration_pinball": 0.31355610489845276
+        },
+        "zero_context_head": {
+          "settle_auc": 0.8245527117364037,
+          "duration_mae_days": 524.8006951358186,
+          "recovery_mae_log": 5.062194252338402,
+          "ece": 0.07151857992144173,
+          "next_type_acc": 0.40809678920428105,
+          "next_gap_pinball": 0.8716137409210205,
+          "duration_pinball": 1.629560947418213
+        },
+        "zero_context_hard": {
+          "settle_auc": 0.8245527117364037,
+          "duration_mae_days": 524.8006951358186,
+          "recovery_mae_log": 5.062194252338402,
+          "ece": 0.07151857992144173,
+          "next_type_acc": 0.40809678920428105,
+          "next_gap_pinball": 0.8716137409210205,
+          "duration_pinball": 1.629560947418213
+        },
+        "gate_clamp_0": {
+          "settle_auc": 0.8587065483813022,
+          "duration_mae_days": 826.6635710400075,
+          "recovery_mae_log": 3.5852788502846784,
+          "ece": 0.0518252333326133,
+          "next_type_acc": 0.5169846440204746,
+          "next_gap_pinball": 0.2677203118801117,
+          "duration_pinball": 0.31355610489845276
+        },
+        "gate_clamp_1": {
+          "settle_auc": 0.8619466479696986,
+          "duration_mae_days": 337.88682885449236,
+          "recovery_mae_log": 3.712868774590774,
+          "ece": 0.0350795294503696,
+          "next_type_acc": 0.5225686365751512,
+          "next_gap_pinball": 0.2695882320404053,
+          "duration_pinball": 0.3063308894634247
+        },
+        "clock_no_flow": {
+          "settle_auc": 0.8587065483813022,
+          "duration_mae_days": 826.6635710400075,
+          "recovery_mae_log": 3.5852788502846784,
+          "ece": 0.0518252333326133,
+          "next_type_acc": 0.5169846440204746,
+          "next_gap_pinball": 0.2677203118801117,
+          "duration_pinball": 0.31355610489845276
+        },
+        "clock_heads_only": {
+          "settle_auc": 0.8587065483813022,
+          "duration_mae_days": 826.6635710400075,
+          "recovery_mae_log": 3.5852788502846784,
+          "ece": 0.0518252333326133,
+          "next_type_acc": 0.5169846440204746,
+          "next_gap_pinball": 0.2677203118801117,
+          "duration_pinball": 0.31355610489845276
+        },
+        "clock_const": {
+          "settle_auc": 0.8587065483813022,
+          "duration_mae_days": 377.9395074808028,
+          "recovery_mae_log": 3.7355745867167034,
+          "ece": 0.02911834821541969,
+          "next_type_acc": 0.4955793392275477,
+          "next_gap_pinball": 0.27148133516311646,
+          "duration_pinball": 0.31045177578926086
+        },
+        "dt_shuffle_phase": {
+          "settle_auc": 0.8704645848906092,
+          "duration_mae_days": 367.7382670607203,
+          "recovery_mae_log": 3.780781059329985,
+          "ece": 0.02906804284752935,
+          "next_type_acc": 0.5272219637040484,
+          "next_gap_pinball": 0.2701094448566437,
+          "duration_pinball": 0.30926865339279175
+        },
+        "dt_phase_median": {
+          "settle_auc": 0.8685881278115469,
+          "duration_mae_days": 336.57777944585246,
+          "recovery_mae_log": 3.762007821128057,
+          "ece": 0.029766055833290242,
+          "next_type_acc": 0.5272219637040484,
+          "next_gap_pinball": 0.2683843672275543,
+          "duration_pinball": 0.30650249123573303
+        },
+        "dt_global_median": {
+          "settle_auc": 0.8535262520498097,
+          "duration_mae_days": 345.73937775017333,
+          "recovery_mae_log": 3.8217920304560633,
+          "ece": 0.035189916915270146,
+          "next_type_acc": 0.5211726384364821,
+          "next_gap_pinball": 0.27563485503196716,
+          "duration_pinball": 0.3146864175796509
+        },
+        "dt_zero": {
+          "settle_auc": 0.8512934323036481,
+          "duration_mae_days": 624.8804598273458,
+          "recovery_mae_log": 3.6295218064437456,
+          "ece": 0.08583330060800644,
+          "next_type_acc": 0.4923220102373197,
+          "next_gap_pinball": 0.27978232502937317,
+          "duration_pinball": 0.3307850658893585
+        },
+        "dt_log": {
+          "settle_auc": 0.8519530412511517,
+          "duration_mae_days": 363.04929088938275,
+          "recovery_mae_log": 3.635318395790525,
+          "ece": 0.08726896282287036,
+          "next_type_acc": 0.48766868310842254,
+          "next_gap_pinball": 0.27797290682792664,
+          "duration_pinball": 0.3213040232658386
+        },
+        "ffres": {
+          "settle_auc": 0.8633836876679202,
+          "duration_mae_days": 337.3988405139564,
+          "recovery_mae_log": 3.8384381023509118,
+          "ece": 0.032609829130549654,
+          "next_type_acc": 0.5197766402978129,
+          "next_gap_pinball": 0.26985275745391846,
+          "duration_pinball": 0.3029211163520813
+        },
+        "tf_native_aux": {
+          "settle_auc": 0.867845464150302,
+          "duration_mae_days": 331.70263774237304,
+          "recovery_mae_log": 3.647994893386523,
+          "ece": 0.022276715324424552,
+          "next_type_acc": 0.5086086551884598,
+          "next_gap_pinball": 0.26238396763801575,
+          "duration_pinball": 0.2945939302444458
+        }
+      },
+      "const_clock_vector": [
+        -0.24985739588737488,
+        -0.06884825229644775,
+        0.25857943296432495,
+        0.7462368011474609,
+        0.22481481730937958,
+        0.1136477068066597,
+        -0.6908392906188965,
+        -0.799130380153656,
+        0.5668054819107056,
+        0.5549071431159973,
+        -0.111077219247818,
+        0.8007123470306396,
+        -0.8287314772605896,
+        0.7395898103713989,
+        0.6844885349273682,
+        -0.06923408061265945
+      ]
+    },
+    "1": {
+      "conditions": {
+        "baseline": {
+          "settle_auc": 0.8263582881183342,
+          "duration_mae_days": 323.6020329737857,
+          "recovery_mae_log": 3.86366272827876,
+          "ece": 0.06706445590834917,
+          "next_type_acc": 0.5403458213256485,
+          "next_gap_pinball": 0.28809720277786255,
+          "duration_pinball": 0.35201966762542725
+        },
+        "zero_event_head": {
+          "settle_auc": 0.8218460208954231,
+          "duration_mae_days": 327.08509968814417,
+          "recovery_mae_log": 3.88053059703096,
+          "ece": 0.04169289661491533,
+          "next_type_acc": 0.4990393852065322,
+          "next_gap_pinball": 0.2996567487716675,
+          "duration_pinball": 0.4368385374546051
+        },
+        "zero_event_hard": {
+          "settle_auc": 0.8218460208954231,
+          "duration_mae_days": 327.08509968814417,
+          "recovery_mae_log": 3.88053059703096,
+          "ece": 0.04169289661491533,
+          "next_type_acc": 0.4990393852065322,
+          "next_gap_pinball": 0.2996567487716675,
+          "duration_pinball": 0.4368385374546051
+        },
+        "zero_clock_head": {
+          "settle_auc": 0.8247518001226772,
+          "duration_mae_days": 344.3584617561416,
+          "recovery_mae_log": 3.6455609831805824,
+          "ece": 0.09814444892858062,
+          "next_type_acc": 0.5196926032660903,
+          "next_gap_pinball": 0.32577577233314514,
+          "duration_pinball": 0.3765299916267395
+        },
+        "zero_clock_hard": {
+          "settle_auc": 0.8247518001226772,
+          "duration_mae_days": 344.3584617561416,
+          "recovery_mae_log": 3.6455609831805824,
+          "ece": 0.09814444892858062,
+          "next_type_acc": 0.5196926032660903,
+          "next_gap_pinball": 0.32577577233314514,
+          "duration_pinball": 0.3765299916267395
+        },
+        "zero_context_head": {
+          "settle_auc": 0.7592906877077985,
+          "duration_mae_days": 447.61307996991013,
+          "recovery_mae_log": 5.0942868890203306,
+          "ece": 0.06960976973162965,
+          "next_type_acc": 0.2905859750240154,
+          "next_gap_pinball": 0.8136960864067078,
+          "duration_pinball": 1.4686301946640015
+        },
+        "zero_context_hard": {
+          "settle_auc": 0.7592906877077985,
+          "duration_mae_days": 447.61307996991013,
+          "recovery_mae_log": 5.0942868890203306,
+          "ece": 0.06960976973162965,
+          "next_type_acc": 0.2905859750240154,
+          "next_gap_pinball": 0.8136960864067078,
+          "duration_pinball": 1.4686301946640015
+        },
+        "gate_clamp_0": {
+          "settle_auc": 0.8247518001226772,
+          "duration_mae_days": 344.3584617561416,
+          "recovery_mae_log": 3.6455609831805824,
+          "ece": 0.09814444892858062,
+          "next_type_acc": 0.5196926032660903,
+          "next_gap_pinball": 0.32577577233314514,
+          "duration_pinball": 0.3765299916267395
+        },
+        "gate_clamp_1": {
+          "settle_auc": 0.8256794336298873,
+          "duration_mae_days": 327.9803659555977,
+          "recovery_mae_log": 3.8446614915408905,
+          "ece": 0.06645658970113816,
+          "next_type_acc": 0.5393852065321806,
+          "next_gap_pinball": 0.2862495481967926,
+          "duration_pinball": 0.3511370122432709
+        },
+        "clock_no_flow": {
+          "settle_auc": 0.8247518001226772,
+          "duration_mae_days": 344.3584617561416,
+          "recovery_mae_log": 3.6455609831805824,
+          "ece": 0.09814444892858062,
+          "next_type_acc": 0.5196926032660903,
+          "next_gap_pinball": 0.32577577233314514,
+          "duration_pinball": 0.3765299916267395
+        },
+        "clock_heads_only": {
+          "settle_auc": 0.8247518001226772,
+          "duration_mae_days": 344.3584617561416,
+          "recovery_mae_log": 3.6455609831805824,
+          "ece": 0.09814444892858062,
+          "next_type_acc": 0.5196926032660903,
+          "next_gap_pinball": 0.32577577233314514,
+          "duration_pinball": 0.3765299916267395
+        },
+        "clock_const": {
+          "settle_auc": 0.8247518001226772,
+          "duration_mae_days": 334.7862747765317,
+          "recovery_mae_log": 3.8365720943307418,
+          "ece": 0.06591250198263404,
+          "next_type_acc": 0.521133525456292,
+          "next_gap_pinball": 0.3033355474472046,
+          "duration_pinball": 0.3619038164615631
+        },
+        "dt_shuffle_phase": {
+          "settle_auc": 0.826832680498243,
+          "duration_mae_days": 318.7413397430161,
+          "recovery_mae_log": 3.8487523265398083,
+          "ece": 0.06166080214011492,
+          "next_type_acc": 0.5422670509125841,
+          "next_gap_pinball": 0.28338971734046936,
+          "duration_pinball": 0.3485059142112732
+        },
+        "dt_phase_median": {
+          "settle_auc": 0.8250005791414404,
+          "duration_mae_days": 320.52604597963904,
+          "recovery_mae_log": 3.8211133177616254,
+          "ece": 0.07468726471790021,
+          "next_type_acc": 0.5384245917387128,
+          "next_gap_pinball": 0.2842738926410675,
+          "duration_pinball": 0.35146254301071167
+        },
+        "dt_global_median": {
+          "settle_auc": 0.8170970610838103,
+          "duration_mae_days": 334.31814641402,
+          "recovery_mae_log": 3.787018263851042,
+          "ece": 0.09106789461205847,
+          "next_type_acc": 0.5398655139289145,
+          "next_gap_pinball": 0.29902029037475586,
+          "duration_pinball": 0.36065053939819336
+        },
+        "dt_zero": {
+          "settle_auc": 0.8199212569081502,
+          "duration_mae_days": 333.6181415964985,
+          "recovery_mae_log": 3.7001808995441294,
+          "ece": 0.09518120280440087,
+          "next_type_acc": 0.521133525456292,
+          "next_gap_pinball": 0.39004290103912354,
+          "duration_pinball": 0.3850746154785156
+        },
+        "dt_log": {
+          "settle_auc": 0.8197842773674546,
+          "duration_mae_days": 338.6768995331623,
+          "recovery_mae_log": 3.7563517329365355,
+          "ece": 0.09738621114706743,
+          "next_type_acc": 0.5124879923150817,
+          "next_gap_pinball": 0.3502233624458313,
+          "duration_pinball": 0.37177973985671997
+        },
+        "ffres": {
+          "settle_auc": 0.8270028977216072,
+          "duration_mae_days": 319.60420995992837,
+          "recovery_mae_log": 4.000627108446256,
+          "ece": 0.04911013754868549,
+          "next_type_acc": 0.5268972142170989,
+          "next_gap_pinball": 0.29015710949897766,
+          "duration_pinball": 0.3496706783771515
+        },
+        "tf_native_aux": {
+          "settle_auc": 0.8319130099340383,
+          "duration_mae_days": 319.37532803746916,
+          "recovery_mae_log": 3.8895891828695515,
+          "ece": 0.051623034521559294,
+          "next_type_acc": 0.5321805955811719,
+          "next_gap_pinball": 0.27599042654037476,
+          "duration_pinball": 0.33541202545166016
+        }
+      },
+      "const_clock_vector": [
+        -0.17034350335597992,
+        -0.6169131994247437,
+        -0.26646170020103455,
+        -0.22053226828575134,
+        0.3935960829257965,
+        -0.6220078468322754,
+        0.7959708571434021,
+        -0.6782518029212952,
+        0.10371289402246475,
+        0.6394287347793579,
+        -0.6001213192939758,
+        -0.14808791875839233,
+        -0.17762795090675354,
+        0.02913319692015648,
+        0.0931001752614975,
+        0.3937360346317291
+      ]
+    },
+    "2": {
+      "conditions": {
+        "baseline": {
+          "settle_auc": 0.8498927379628158,
+          "duration_mae_days": 293.86115644957795,
+          "recovery_mae_log": 4.655016832675112,
+          "ece": 0.08170733171814797,
+          "next_type_acc": 0.5414560161779576,
+          "next_gap_pinball": 0.2790359556674957,
+          "duration_pinball": 0.32317087054252625
+        },
+        "zero_event_head": {
+          "settle_auc": 0.8440639511273549,
+          "duration_mae_days": 383.15718162650853,
+          "recovery_mae_log": 4.39507554956361,
+          "ece": 0.07342134010453054,
+          "next_type_acc": 0.48938321536905965,
+          "next_gap_pinball": 0.2848460078239441,
+          "duration_pinball": 0.32797443866729736
+        },
+        "zero_event_hard": {
+          "settle_auc": 0.8440639511273549,
+          "duration_mae_days": 383.15718162650853,
+          "recovery_mae_log": 4.39507554956361,
+          "ece": 0.07342134010453054,
+          "next_type_acc": 0.48938321536905965,
+          "next_gap_pinball": 0.2848460078239441,
+          "duration_pinball": 0.32797443866729736
+        },
+        "zero_clock_head": {
+          "settle_auc": 0.8408538146441372,
+          "duration_mae_days": 642.9204204572657,
+          "recovery_mae_log": 4.325751225736358,
+          "ece": 0.03757872854169086,
+          "next_type_acc": 0.5111223458038423,
+          "next_gap_pinball": 0.28724613785743713,
+          "duration_pinball": 0.3174053728580475
+        },
+        "zero_clock_hard": {
+          "settle_auc": 0.8408538146441372,
+          "duration_mae_days": 642.9204204572657,
+          "recovery_mae_log": 4.325751225736358,
+          "ece": 0.03757872854169086,
+          "next_type_acc": 0.5111223458038423,
+          "next_gap_pinball": 0.28724613785743713,
+          "duration_pinball": 0.3174053728580475
+        },
+        "zero_context_head": {
+          "settle_auc": 0.7106523783039356,
+          "duration_mae_days": 405.66919978248995,
+          "recovery_mae_log": 6.0856839989872835,
+          "ece": 0.11961092525200219,
+          "next_type_acc": 0.32912032355915066,
+          "next_gap_pinball": 0.7883025407791138,
+          "duration_pinball": 1.4565589427947998
+        },
+        "zero_context_hard": {
+          "settle_auc": 0.7106523783039356,
+          "duration_mae_days": 405.66919978248995,
+          "recovery_mae_log": 6.0856839989872835,
+          "ece": 0.11961092525200219,
+          "next_type_acc": 0.32912032355915066,
+          "next_gap_pinball": 0.7883025407791138,
+          "duration_pinball": 1.4565589427947998
+        },
+        "gate_clamp_0": {
+          "settle_auc": 0.8408538146441372,
+          "duration_mae_days": 642.9204204572657,
+          "recovery_mae_log": 4.325751225736358,
+          "ece": 0.03757872854169086,
+          "next_type_acc": 0.5111223458038423,
+          "next_gap_pinball": 0.28724613785743713,
+          "duration_pinball": 0.3174053728580475
+        },
+        "gate_clamp_1": {
+          "settle_auc": 0.848840532690644,
+          "duration_mae_days": 284.2504485965164,
+          "recovery_mae_log": 4.6350997254785105,
+          "ece": 0.07643212296758412,
+          "next_type_acc": 0.5303336703741153,
+          "next_gap_pinball": 0.28600504994392395,
+          "duration_pinball": 0.3243572413921356
+        },
+        "clock_no_flow": {
+          "settle_auc": 0.8408538146441372,
+          "duration_mae_days": 642.9204204572657,
+          "recovery_mae_log": 4.325751225736358,
+          "ece": 0.03757872854169086,
+          "next_type_acc": 0.5111223458038423,
+          "next_gap_pinball": 0.28724613785743713,
+          "duration_pinball": 0.3174053728580475
+        },
+        "clock_heads_only": {
+          "settle_auc": 0.8408538146441372,
+          "duration_mae_days": 642.9204204572657,
+          "recovery_mae_log": 4.325751225736358,
+          "ece": 0.03757872854169086,
+          "next_type_acc": 0.5111223458038423,
+          "next_gap_pinball": 0.28724613785743713,
+          "duration_pinball": 0.3174053728580475
+        },
+        "clock_const": {
+          "settle_auc": 0.8408538146441372,
+          "duration_mae_days": 323.09013004181435,
+          "recovery_mae_log": 4.642693502983842,
+          "ece": 0.08102552306528463,
+          "next_type_acc": 0.5333670374115268,
+          "next_gap_pinball": 0.28512951731681824,
+          "duration_pinball": 0.32849106192588806
+        },
+        "dt_shuffle_phase": {
+          "settle_auc": 0.8491644154881085,
+          "duration_mae_days": 310.70722610528765,
+          "recovery_mae_log": 4.677858130413933,
+          "ece": 0.08194591078009218,
+          "next_type_acc": 0.5429726996966633,
+          "next_gap_pinball": 0.2774278521537781,
+          "duration_pinball": 0.32226505875587463
+        },
+        "dt_phase_median": {
+          "settle_auc": 0.8548000865158818,
+          "duration_mae_days": 288.30792393857723,
+          "recovery_mae_log": 4.651892565457128,
+          "ece": 0.07055053260692973,
+          "next_type_acc": 0.5419615773508595,
+          "next_gap_pinball": 0.27274876832962036,
+          "duration_pinball": 0.3189804255962372
+        },
+        "dt_global_median": {
+          "settle_auc": 0.8383874499002419,
+          "duration_mae_days": 297.38820206414425,
+          "recovery_mae_log": 4.672715638123118,
+          "ece": 0.06992404631191335,
+          "next_type_acc": 0.5424671385237614,
+          "next_gap_pinball": 0.28816819190979004,
+          "duration_pinball": 0.3321680426597595
+        },
+        "dt_zero": {
+          "settle_auc": 0.8400471423274538,
+          "duration_mae_days": 442.11510675574743,
+          "recovery_mae_log": 4.230763862594129,
+          "ece": 0.10666309562055043,
+          "next_type_acc": 0.5202224469160769,
+          "next_gap_pinball": 0.32232725620269775,
+          "duration_pinball": 0.3471992313861847
+        },
+        "dt_log": {
+          "settle_auc": 0.8435331585359394,
+          "duration_mae_days": 319.4449625916784,
+          "recovery_mae_log": 4.25614794343027,
+          "ece": 0.05844459983355457,
+          "next_type_acc": 0.5303336703741153,
+          "next_gap_pinball": 0.29343321919441223,
+          "duration_pinball": 0.33747127652168274
+        },
+        "ffres": {
+          "settle_auc": 0.8506784434203789,
+          "duration_mae_days": 281.4452209530611,
+          "recovery_mae_log": 4.4225170365393875,
+          "ece": 0.04031300214208887,
+          "next_type_acc": 0.5303336703741153,
+          "next_gap_pinball": 0.27295979857444763,
+          "duration_pinball": 0.30492299795150757
+        },
+        "tf_native_aux": {
+          "settle_auc": 0.8604931405265109,
+          "duration_mae_days": 278.4037170079577,
+          "recovery_mae_log": 4.748823860170205,
+          "ece": 0.09257509905629807,
+          "next_type_acc": 0.5222446916076845,
+          "next_gap_pinball": 0.27105867862701416,
+          "duration_pinball": 0.31909263134002686
+        }
+      },
+      "const_clock_vector": [
+        -0.6337699294090271,
+        0.7454113364219666,
+        0.7989024519920349,
+        0.32374656200408936,
+        -0.669816792011261,
+        0.1461513787508011,
+        -0.046003833413124084,
+        -0.18746720254421234,
+        0.14731678366661072,
+        -0.4194498658180237,
+        -0.7869776487350464,
+        -0.6557745337486267,
+        -0.6749237179756165,
+        0.6525367498397827,
+        -0.6252564787864685,
+        0.6897933483123779
+      ]
+    },
+    "3": {
+      "conditions": {
+        "baseline": {
+          "settle_auc": 0.8358501848227876,
+          "duration_mae_days": 353.16886450731465,
+          "recovery_mae_log": 4.4120076496098,
+          "ece": 0.06676028110006942,
+          "next_type_acc": 0.5176470588235295,
+          "next_gap_pinball": 0.2611875534057617,
+          "duration_pinball": 0.315504252910614
+        },
+        "zero_event_head": {
+          "settle_auc": 0.8278745379430311,
+          "duration_mae_days": 374.1872470866712,
+          "recovery_mae_log": 4.304743440642131,
+          "ece": 0.11275637344072924,
+          "next_type_acc": 0.45741176470588235,
+          "next_gap_pinball": 0.29536935687065125,
+          "duration_pinball": 0.38866692781448364
+        },
+        "zero_event_hard": {
+          "settle_auc": 0.8278745379430311,
+          "duration_mae_days": 374.1872470866712,
+          "recovery_mae_log": 4.304743440642131,
+          "ece": 0.11275637344072924,
+          "next_type_acc": 0.45741176470588235,
+          "next_gap_pinball": 0.29536935687065125,
+          "duration_pinball": 0.38866692781448364
+        },
+        "zero_clock_head": {
+          "settle_auc": 0.8333746466623179,
+          "duration_mae_days": 542.4113631946786,
+          "recovery_mae_log": 4.227831414050485,
+          "ece": 0.11038947874298674,
+          "next_type_acc": 0.5105882352941177,
+          "next_gap_pinball": 0.31820589303970337,
+          "duration_pinball": 0.3917435109615326
+        },
+        "zero_clock_hard": {
+          "settle_auc": 0.8333746466623179,
+          "duration_mae_days": 542.4113631946786,
+          "recovery_mae_log": 4.227831414050485,
+          "ece": 0.11038947874298674,
+          "next_type_acc": 0.5105882352941177,
+          "next_gap_pinball": 0.31820589303970337,
+          "duration_pinball": 0.3917435109615326
+        },
+        "zero_context_head": {
+          "settle_auc": 0.7061741682974559,
+          "duration_mae_days": 520.7531747686564,
+          "recovery_mae_log": 5.787052828139073,
+          "ece": 0.06753341140231128,
+          "next_type_acc": 0.4103529411764706,
+          "next_gap_pinball": 0.7618178725242615,
+          "duration_pinball": 1.3603019714355469
+        },
+        "zero_context_hard": {
+          "settle_auc": 0.7061741682974559,
+          "duration_mae_days": 520.7531747686564,
+          "recovery_mae_log": 5.787052828139073,
+          "ece": 0.06753341140231128,
+          "next_type_acc": 0.4103529411764706,
+          "next_gap_pinball": 0.7618178725242615,
+          "duration_pinball": 1.3603019714355469
+        },
+        "gate_clamp_0": {
+          "settle_auc": 0.8333746466623179,
+          "duration_mae_days": 542.4113631946786,
+          "recovery_mae_log": 4.227831414050485,
+          "ece": 0.11038947874298674,
+          "next_type_acc": 0.5105882352941177,
+          "next_gap_pinball": 0.31820589303970337,
+          "duration_pinball": 0.3917435109615326
+        },
+        "gate_clamp_1": {
+          "settle_auc": 0.835442487497282,
+          "duration_mae_days": 353.26639758664726,
+          "recovery_mae_log": 4.3789645615198864,
+          "ece": 0.07529186654376877,
+          "next_type_acc": 0.5167058823529411,
+          "next_gap_pinball": 0.2665797472000122,
+          "duration_pinball": 0.32249996066093445
+        },
+        "clock_no_flow": {
+          "settle_auc": 0.8333746466623179,
+          "duration_mae_days": 542.4113631946786,
+          "recovery_mae_log": 4.227831414050485,
+          "ece": 0.11038947874298674,
+          "next_type_acc": 0.5105882352941177,
+          "next_gap_pinball": 0.31820589303970337,
+          "duration_pinball": 0.3917435109615326
+        },
+        "clock_heads_only": {
+          "settle_auc": 0.8333746466623179,
+          "duration_mae_days": 542.4113631946786,
+          "recovery_mae_log": 4.227831414050485,
+          "ece": 0.11038947874298674,
+          "next_type_acc": 0.5105882352941177,
+          "next_gap_pinball": 0.31820589303970337,
+          "duration_pinball": 0.3917435109615326
+        },
+        "clock_const": {
+          "settle_auc": 0.8333746466623179,
+          "duration_mae_days": 372.2956603013496,
+          "recovery_mae_log": 4.353055295750279,
+          "ece": 0.06057710679445516,
+          "next_type_acc": 0.49176470588235294,
+          "next_gap_pinball": 0.27408018708229065,
+          "duration_pinball": 0.32409313321113586
+        },
+        "dt_shuffle_phase": {
+          "settle_auc": 0.8356403565992607,
+          "duration_mae_days": 371.52387244042336,
+          "recovery_mae_log": 4.402615152859548,
+          "ece": 0.06777055059612028,
+          "next_type_acc": 0.5181176470588236,
+          "next_gap_pinball": 0.2595151662826538,
+          "duration_pinball": 0.3198760449886322
+        },
+        "dt_phase_median": {
+          "settle_auc": 0.8387301587301588,
+          "duration_mae_days": 347.5544875862208,
+          "recovery_mae_log": 4.43292101856213,
+          "ece": 0.06452968182220588,
+          "next_type_acc": 0.516235294117647,
+          "next_gap_pinball": 0.2575690448284149,
+          "duration_pinball": 0.31522780656814575
+        },
+        "dt_global_median": {
+          "settle_auc": 0.8305762122200478,
+          "duration_mae_days": 374.73666087088645,
+          "recovery_mae_log": 4.388323312367277,
+          "ece": 0.06482875260443276,
+          "next_type_acc": 0.5124705882352941,
+          "next_gap_pinball": 0.2659950256347656,
+          "duration_pinball": 0.3180200159549713
+        },
+        "dt_zero": {
+          "settle_auc": 0.8204348771472059,
+          "duration_mae_days": 393.6724669752046,
+          "recovery_mae_log": 4.2200026379132725,
+          "ece": 0.18460326544706943,
+          "next_type_acc": 0.5087058823529412,
+          "next_gap_pinball": 0.3802434206008911,
+          "duration_pinball": 0.47053009271621704
+        },
+        "dt_log": {
+          "settle_auc": 0.827649489019352,
+          "duration_mae_days": 387.4459206104155,
+          "recovery_mae_log": 4.306528143031604,
+          "ece": 0.11893223638747474,
+          "next_type_acc": 0.5218823529411765,
+          "next_gap_pinball": 0.2952742874622345,
+          "duration_pinball": 0.3491572141647339
+        },
+        "ffres": {
+          "settle_auc": 0.835884974994564,
+          "duration_mae_days": 359.35078726857176,
+          "recovery_mae_log": 4.4082278026092645,
+          "ece": 0.04557466295181093,
+          "next_type_acc": 0.52,
+          "next_gap_pinball": 0.2623234987258911,
+          "duration_pinball": 0.3147225081920624
+        },
+        "tf_native_aux": {
+          "settle_auc": 0.8455686018699717,
+          "duration_mae_days": 347.49545609407386,
+          "recovery_mae_log": 4.382375653495962,
+          "ece": 0.0571365642784017,
+          "next_type_acc": 0.528,
+          "next_gap_pinball": 0.24701723456382751,
+          "duration_pinball": 0.3025197982788086
+        }
+      },
+      "const_clock_vector": [
+        -0.40240490436553955,
+        0.11240106076002121,
+        -0.38988563418388367,
+        -0.2995036542415619,
+        0.697955310344696,
+        -0.6739934086799622,
+        -0.7091235518455505,
+        -0.463192880153656,
+        -0.5999058485031128,
+        -0.5951856374740601,
+        -0.0004991873865947127,
+        0.7289193272590637,
+        0.20890043675899506,
+        0.4074188470840454,
+        0.5758391618728638,
+        0.6821817755699158
+      ]
+    },
+    "4": {
+      "conditions": {
+        "baseline": {
+          "settle_auc": 0.8671035256950146,
+          "duration_mae_days": 403.18252495914584,
+          "recovery_mae_log": 3.8696379870981783,
+          "ece": 0.025586085293341325,
+          "next_type_acc": 0.5168650793650794,
+          "next_gap_pinball": 0.28130850195884705,
+          "duration_pinball": 0.31904304027557373
+        },
+        "zero_event_head": {
+          "settle_auc": 0.8622103590481766,
+          "duration_mae_days": 399.0040276987843,
+          "recovery_mae_log": 3.7407409578830273,
+          "ece": 0.08232030954950295,
+          "next_type_acc": 0.48115079365079366,
+          "next_gap_pinball": 0.3175847828388214,
+          "duration_pinball": 0.47396862506866455
+        },
+        "zero_event_hard": {
+          "settle_auc": 0.8622103590481766,
+          "duration_mae_days": 399.0040276987843,
+          "recovery_mae_log": 3.7407409578830273,
+          "ece": 0.08232030954950295,
+          "next_type_acc": 0.48115079365079366,
+          "next_gap_pinball": 0.3175847828388214,
+          "duration_pinball": 0.47396862506866455
+        },
+        "zero_clock_head": {
+          "settle_auc": 0.8643542115511244,
+          "duration_mae_days": 760.4652460772024,
+          "recovery_mae_log": 3.68867961855622,
+          "ece": 0.026557533409412918,
+          "next_type_acc": 0.4975198412698413,
+          "next_gap_pinball": 0.29758670926094055,
+          "duration_pinball": 0.3327060043811798
+        },
+        "zero_clock_hard": {
+          "settle_auc": 0.8643542115511244,
+          "duration_mae_days": 760.4652460772024,
+          "recovery_mae_log": 3.68867961855622,
+          "ece": 0.026557533409412918,
+          "next_type_acc": 0.4975198412698413,
+          "next_gap_pinball": 0.29758670926094055,
+          "duration_pinball": 0.3327060043811798
+        },
+        "zero_context_head": {
+          "settle_auc": 0.7839267603443828,
+          "duration_mae_days": 591.9477515521007,
+          "recovery_mae_log": 5.372750596634977,
+          "ece": 0.08298014284925419,
+          "next_type_acc": 0.4107142857142857,
+          "next_gap_pinball": 0.9019075632095337,
+          "duration_pinball": 1.4986838102340698
+        },
+        "zero_context_hard": {
+          "settle_auc": 0.7839267603443828,
+          "duration_mae_days": 591.9477515521007,
+          "recovery_mae_log": 5.372750596634977,
+          "ece": 0.08298014284925419,
+          "next_type_acc": 0.4107142857142857,
+          "next_gap_pinball": 0.9019075632095337,
+          "duration_pinball": 1.4986838102340698
+        },
+        "gate_clamp_0": {
+          "settle_auc": 0.8643542115511244,
+          "duration_mae_days": 760.4652460772024,
+          "recovery_mae_log": 3.68867961855622,
+          "ece": 0.026557533409412918,
+          "next_type_acc": 0.4975198412698413,
+          "next_gap_pinball": 0.29758670926094055,
+          "duration_pinball": 0.3327060043811798
+        },
+        "gate_clamp_1": {
+          "settle_auc": 0.8660245317979266,
+          "duration_mae_days": 410.42345875699976,
+          "recovery_mae_log": 3.86426975050488,
+          "ece": 0.02693044081296738,
+          "next_type_acc": 0.5128968253968254,
+          "next_gap_pinball": 0.28684118390083313,
+          "duration_pinball": 0.32225674390792847
+        },
+        "clock_no_flow": {
+          "settle_auc": 0.8643542115511244,
+          "duration_mae_days": 760.4652460772024,
+          "recovery_mae_log": 3.68867961855622,
+          "ece": 0.026557533409412918,
+          "next_type_acc": 0.4975198412698413,
+          "next_gap_pinball": 0.29758670926094055,
+          "duration_pinball": 0.3327060043811798
+        },
+        "clock_heads_only": {
+          "settle_auc": 0.8643542115511244,
+          "duration_mae_days": 760.4652460772024,
+          "recovery_mae_log": 3.68867961855622,
+          "ece": 0.026557533409412918,
+          "next_type_acc": 0.4975198412698413,
+          "next_gap_pinball": 0.29758670926094055,
+          "duration_pinball": 0.3327060043811798
+        },
+        "clock_const": {
+          "settle_auc": 0.8643542115511244,
+          "duration_mae_days": 417.4037629820808,
+          "recovery_mae_log": 3.852772451413644,
+          "ece": 0.02709001854716523,
+          "next_type_acc": 0.5,
+          "next_gap_pinball": 0.2911655902862549,
+          "duration_pinball": 0.33100974559783936
+        },
+        "dt_shuffle_phase": {
+          "settle_auc": 0.8694311369839294,
+          "duration_mae_days": 398.9502757257584,
+          "recovery_mae_log": 3.8562958190033028,
+          "ece": 0.026392418020279022,
+          "next_type_acc": 0.5148809523809523,
+          "next_gap_pinball": 0.27932897210121155,
+          "duration_pinball": 0.31856590509414673
+        },
+        "dt_phase_median": {
+          "settle_auc": 0.8684345989523393,
+          "duration_mae_days": 401.9215519253505,
+          "recovery_mae_log": 3.855700678331358,
+          "ece": 0.021687514665494633,
+          "next_type_acc": 0.5168650793650794,
+          "next_gap_pinball": 0.27795156836509705,
+          "duration_pinball": 0.31883981823921204
+        },
+        "dt_global_median": {
+          "settle_auc": 0.8605482843879242,
+          "duration_mae_days": 413.5975355172957,
+          "recovery_mae_log": 3.8534237396609674,
+          "ece": 0.020663853681033795,
+          "next_type_acc": 0.5133928571428571,
+          "next_gap_pinball": 0.2889925241470337,
+          "duration_pinball": 0.323426216840744
+        },
+        "dt_zero": {
+          "settle_auc": 0.8584362362902399,
+          "duration_mae_days": 517.8305830007994,
+          "recovery_mae_log": 3.7041722436208984,
+          "ece": 0.05095303205622209,
+          "next_type_acc": 0.49702380952380953,
+          "next_gap_pinball": 0.38134628534317017,
+          "duration_pinball": 0.33658114075660706
+        },
+        "dt_log": {
+          "settle_auc": 0.8585587421475512,
+          "duration_mae_days": 425.29121011163994,
+          "recovery_mae_log": 3.755071233306919,
+          "ece": 0.06443373558220564,
+          "next_type_acc": 0.4861111111111111,
+          "next_gap_pinball": 0.3389502763748169,
+          "duration_pinball": 0.33659249544143677
+        },
+        "ffres": {
+          "settle_auc": 0.864040879262232,
+          "duration_mae_days": 410.1035005404708,
+          "recovery_mae_log": 3.8657281505094994,
+          "ece": 0.02381867890724459,
+          "next_type_acc": 0.5089285714285714,
+          "next_gap_pinball": 0.2887181341648102,
+          "duration_pinball": 0.3247440457344055
+        },
+        "tf_native_aux": {
+          "settle_auc": 0.8634719337902959,
+          "duration_mae_days": 405.8765136792136,
+          "recovery_mae_log": 3.7877377216880386,
+          "ece": 0.021590390291299905,
+          "next_type_acc": 0.5168650793650794,
+          "next_gap_pinball": 0.2673916816711426,
+          "duration_pinball": 0.32450035214424133
+        }
+      },
+      "const_clock_vector": [
+        -0.5995373725891113,
+        0.8038532137870789,
+        0.37779027223587036,
+        -0.46680861711502075,
+        -0.5110346078872681,
+        0.38763684034347534,
+        -0.6971691846847534,
+        0.638862669467926,
+        -0.08078029751777649,
+        -0.43949949741363525,
+        -0.4161800742149353,
+        0.7810461521148682,
+        0.7464720606803894,
+        -0.4366476535797119,
+        0.34614619612693787,
+        -0.58913654088974
+      ]
+    },
+    "5": {
+      "conditions": {
+        "baseline": {
+          "settle_auc": 0.8219893577635333,
+          "duration_mae_days": 303.12953869946807,
+          "recovery_mae_log": 4.082127744789679,
+          "ece": 0.03583139027478542,
+          "next_type_acc": 0.5238527941844616,
+          "next_gap_pinball": 0.25885528326034546,
+          "duration_pinball": 0.3039551079273224
+        },
+        "zero_event_head": {
+          "settle_auc": 0.8142762771046729,
+          "duration_mae_days": 418.01703091600365,
+          "recovery_mae_log": 3.977778136754978,
+          "ece": 0.04577604232050029,
+          "next_type_acc": 0.4675147660154475,
+          "next_gap_pinball": 0.2876420021057129,
+          "duration_pinball": 0.36089086532592773
+        },
+        "zero_event_hard": {
+          "settle_auc": 0.8142762771046729,
+          "duration_mae_days": 418.01703091600365,
+          "recovery_mae_log": 3.977778136754978,
+          "ece": 0.04577604232050029,
+          "next_type_acc": 0.4675147660154475,
+          "next_gap_pinball": 0.2876420021057129,
+          "duration_pinball": 0.36089086532592773
+        },
+        "zero_clock_head": {
+          "settle_auc": 0.8044434603965068,
+          "duration_mae_days": 344.8373317448549,
+          "recovery_mae_log": 3.909454915726755,
+          "ece": 0.15082788680081805,
+          "next_type_acc": 0.4834166288050886,
+          "next_gap_pinball": 0.2995797395706177,
+          "duration_pinball": 0.3279437720775604
+        },
+        "zero_clock_hard": {
+          "settle_auc": 0.8044434603965068,
+          "duration_mae_days": 344.8373317448549,
+          "recovery_mae_log": 3.909454915726755,
+          "ece": 0.15082788680081805,
+          "next_type_acc": 0.4834166288050886,
+          "next_gap_pinball": 0.2995797395706177,
+          "duration_pinball": 0.3279437720775604
+        },
+        "zero_context_head": {
+          "settle_auc": 0.7538438364318745,
+          "duration_mae_days": 443.7994419455379,
+          "recovery_mae_log": 5.3868925681481,
+          "ece": 0.0681365000018211,
+          "next_type_acc": 0.39254884143571106,
+          "next_gap_pinball": 0.8244170546531677,
+          "duration_pinball": 1.5341705083847046
+        },
+        "zero_context_hard": {
+          "settle_auc": 0.7538438364318745,
+          "duration_mae_days": 443.7994419455379,
+          "recovery_mae_log": 5.3868925681481,
+          "ece": 0.0681365000018211,
+          "next_type_acc": 0.39254884143571106,
+          "next_gap_pinball": 0.8244170546531677,
+          "duration_pinball": 1.5341705083847046
+        },
+        "gate_clamp_0": {
+          "settle_auc": 0.8044434603965068,
+          "duration_mae_days": 344.8373317448549,
+          "recovery_mae_log": 3.909454915726755,
+          "ece": 0.15082788680081805,
+          "next_type_acc": 0.4834166288050886,
+          "next_gap_pinball": 0.2995797395706177,
+          "duration_pinball": 0.3279437720775604
+        },
+        "gate_clamp_1": {
+          "settle_auc": 0.8188142907958448,
+          "duration_mae_days": 306.65683159364306,
+          "recovery_mae_log": 4.057011884066766,
+          "ece": 0.04490319462706047,
+          "next_type_acc": 0.5093139482053612,
+          "next_gap_pinball": 0.26596635580062866,
+          "duration_pinball": 0.3145058751106262
+        },
+        "clock_no_flow": {
+          "settle_auc": 0.8044434603965068,
+          "duration_mae_days": 344.8373317448549,
+          "recovery_mae_log": 3.909454915726755,
+          "ece": 0.15082788680081805,
+          "next_type_acc": 0.4834166288050886,
+          "next_gap_pinball": 0.2995797395706177,
+          "duration_pinball": 0.3279437720775604
+        },
+        "clock_heads_only": {
+          "settle_auc": 0.8044434603965068,
+          "duration_mae_days": 344.8373317448549,
+          "recovery_mae_log": 3.909454915726755,
+          "ece": 0.15082788680081805,
+          "next_type_acc": 0.4834166288050886,
+          "next_gap_pinball": 0.2995797395706177,
+          "duration_pinball": 0.3279437720775604
+        },
+        "clock_const": {
+          "settle_auc": 0.8044434603965068,
+          "duration_mae_days": 314.3448921317833,
+          "recovery_mae_log": 4.0491532916586515,
+          "ece": 0.052812370450357894,
+          "next_type_acc": 0.5084052703316674,
+          "next_gap_pinball": 0.2680619955062866,
+          "duration_pinball": 0.30809032917022705
+        },
+        "dt_shuffle_phase": {
+          "settle_auc": 0.824491118160766,
+          "duration_mae_days": 302.3447796724414,
+          "recovery_mae_log": 4.078245462350191,
+          "ece": 0.037481195513708924,
+          "next_type_acc": 0.5193094048159927,
+          "next_gap_pinball": 0.25629913806915283,
+          "duration_pinball": 0.3034723699092865
+        },
+        "dt_phase_median": {
+          "settle_auc": 0.8237225323586419,
+          "duration_mae_days": 300.09023093950384,
+          "recovery_mae_log": 4.079769430140695,
+          "ece": 0.038348759856392585,
+          "next_type_acc": 0.522035438437074,
+          "next_gap_pinball": 0.2542395293712616,
+          "duration_pinball": 0.30060940980911255
+        },
+        "dt_global_median": {
+          "settle_auc": 0.801830994606288,
+          "duration_mae_days": 315.0688774949401,
+          "recovery_mae_log": 4.067050121132897,
+          "ece": 0.04785424056240278,
+          "next_type_acc": 0.5215810995002271,
+          "next_gap_pinball": 0.26483154296875,
+          "duration_pinball": 0.31114721298217773
+        },
+        "dt_zero": {
+          "settle_auc": 0.7944491227051317,
+          "duration_mae_days": 320.4566363507636,
+          "recovery_mae_log": 3.8844133638790392,
+          "ece": 0.2264942145102857,
+          "next_type_acc": 0.46251703771013175,
+          "next_gap_pinball": 0.3722182810306549,
+          "duration_pinball": 0.387043297290802
+        },
+        "dt_log": {
+          "settle_auc": 0.8051022482268989,
+          "duration_mae_days": 322.1741781981476,
+          "recovery_mae_log": 3.911366181363683,
+          "ece": 0.1488691284865327,
+          "next_type_acc": 0.4965924579736483,
+          "next_gap_pinball": 0.3162280321121216,
+          "duration_pinball": 0.348177969455719
+        },
+        "ffres": {
+          "settle_auc": 0.8172045254912779,
+          "duration_mae_days": 309.51533480250515,
+          "recovery_mae_log": 4.112402896524219,
+          "ece": 0.031959871325076494,
+          "next_type_acc": 0.5106769650159019,
+          "next_gap_pinball": 0.25969675183296204,
+          "duration_pinball": 0.30442288517951965
+        },
+        "tf_native_aux": {
+          "settle_auc": 0.8237851444251668,
+          "duration_mae_days": 305.79367858416896,
+          "recovery_mae_log": 4.017124623518724,
+          "ece": 0.025043378897367543,
+          "next_type_acc": 0.5070422535211268,
+          "next_gap_pinball": 0.2537054121494293,
+          "duration_pinball": 0.28718411922454834
+        }
+      },
+      "const_clock_vector": [
+        0.13107900321483612,
+        0.10393912345170975,
+        -0.6683799028396606,
+        -0.549053430557251,
+        0.2856164872646332,
+        0.6289114952087402,
+        -0.8025107979774475,
+        0.3128942847251892,
+        -0.23184767365455627,
+        0.5549468398094177,
+        -0.35882964730262756,
+        0.7958691120147705,
+        0.20005454123020172,
+        -0.20094408094882965,
+        0.23685124516487122,
+        0.5987324118614197
+      ]
+    },
+    "6": {
+      "conditions": {
+        "baseline": {
+          "settle_auc": 0.8374819832212974,
+          "duration_mae_days": 313.33483032064123,
+          "recovery_mae_log": 4.260208267303931,
+          "ece": 0.043549673161199426,
+          "next_type_acc": 0.5196850393700787,
+          "next_gap_pinball": 0.2754935026168823,
+          "duration_pinball": 0.3155669569969177
+        },
+        "zero_event_head": {
+          "settle_auc": 0.8306977164374617,
+          "duration_mae_days": 372.13140199398157,
+          "recovery_mae_log": 4.104202302996506,
+          "ece": 0.025584487942091953,
+          "next_type_acc": 0.4557665585919407,
+          "next_gap_pinball": 0.28865212202072144,
+          "duration_pinball": 0.33994999527931213
+        },
+        "zero_event_hard": {
+          "settle_auc": 0.8306977164374617,
+          "duration_mae_days": 372.13140199398157,
+          "recovery_mae_log": 4.104202302996506,
+          "ece": 0.025584487942091953,
+          "next_type_acc": 0.4557665585919407,
+          "next_gap_pinball": 0.28865212202072144,
+          "duration_pinball": 0.33994999527931213
+        },
+        "zero_clock_head": {
+          "settle_auc": 0.8331666824078219,
+          "duration_mae_days": 639.9334417297113,
+          "recovery_mae_log": 4.007533934274771,
+          "ece": 0.05639879112819645,
+          "next_type_acc": 0.5178323297823066,
+          "next_gap_pinball": 0.28299739956855774,
+          "duration_pinball": 0.3201354444026947
+        },
+        "zero_clock_hard": {
+          "settle_auc": 0.8331666824078219,
+          "duration_mae_days": 639.9334417297113,
+          "recovery_mae_log": 4.007533934274771,
+          "ece": 0.05639879112819645,
+          "next_type_acc": 0.5178323297823066,
+          "next_gap_pinball": 0.28299739956855774,
+          "duration_pinball": 0.3201354444026947
+        },
+        "zero_context_head": {
+          "settle_auc": 0.7387202646156625,
+          "duration_mae_days": 458.87197407130657,
+          "recovery_mae_log": 5.7390739014730885,
+          "ece": 0.06900559211566798,
+          "next_type_acc": 0.4089856415006948,
+          "next_gap_pinball": 0.8528783917427063,
+          "duration_pinball": 1.5983492136001587
+        },
+        "zero_context_hard": {
+          "settle_auc": 0.7387202646156625,
+          "duration_mae_days": 458.87197407130657,
+          "recovery_mae_log": 5.7390739014730885,
+          "ece": 0.06900559211566798,
+          "next_type_acc": 0.4089856415006948,
+          "next_gap_pinball": 0.8528783917427063,
+          "duration_pinball": 1.5983492136001587
+        },
+        "gate_clamp_0": {
+          "settle_auc": 0.8331666824078219,
+          "duration_mae_days": 639.9334417297113,
+          "recovery_mae_log": 4.007533934274771,
+          "ece": 0.05639879112819645,
+          "next_type_acc": 0.5178323297823066,
+          "next_gap_pinball": 0.28299739956855774,
+          "duration_pinball": 0.3201354444026947
+        },
+        "gate_clamp_1": {
+          "settle_auc": 0.8341881464995093,
+          "duration_mae_days": 316.8274268451916,
+          "recovery_mae_log": 4.229221530854576,
+          "ece": 0.04282518164099045,
+          "next_type_acc": 0.5233904585456229,
+          "next_gap_pinball": 0.27779364585876465,
+          "duration_pinball": 0.3199719488620758
+        },
+        "clock_no_flow": {
+          "settle_auc": 0.8331666824078219,
+          "duration_mae_days": 639.9334417297113,
+          "recovery_mae_log": 4.007533934274771,
+          "ece": 0.05639879112819645,
+          "next_type_acc": 0.5178323297823066,
+          "next_gap_pinball": 0.28299739956855774,
+          "duration_pinball": 0.3201354444026947
+        },
+        "clock_heads_only": {
+          "settle_auc": 0.8331666824078219,
+          "duration_mae_days": 639.9334417297113,
+          "recovery_mae_log": 4.007533934274771,
+          "ece": 0.05639879112819645,
+          "next_type_acc": 0.5178323297823066,
+          "next_gap_pinball": 0.28299739956855774,
+          "duration_pinball": 0.3201354444026947
+        },
+        "clock_const": {
+          "settle_auc": 0.8331666824078219,
+          "duration_mae_days": 334.7479688209621,
+          "recovery_mae_log": 4.260426294284002,
+          "ece": 0.03698221742917661,
+          "next_type_acc": 0.5136637332098194,
+          "next_gap_pinball": 0.28356456756591797,
+          "duration_pinball": 0.3213786482810974
+        },
+        "dt_shuffle_phase": {
+          "settle_auc": 0.8382072740562493,
+          "duration_mae_days": 319.2949481293631,
+          "recovery_mae_log": 4.2204860105284485,
+          "ece": 0.04420981857605622,
+          "next_type_acc": 0.5201482167670217,
+          "next_gap_pinball": 0.2736349105834961,
+          "duration_pinball": 0.31504616141319275
+        },
+        "dt_phase_median": {
+          "settle_auc": 0.836116095810252,
+          "duration_mae_days": 310.7015403948029,
+          "recovery_mae_log": 4.223884006198362,
+          "ece": 0.044286811384567505,
+          "next_type_acc": 0.5215377489578509,
+          "next_gap_pinball": 0.27154555916786194,
+          "duration_pinball": 0.3131158649921417
+        },
+        "dt_global_median": {
+          "settle_auc": 0.8363717184824432,
+          "duration_mae_days": 312.672423717924,
+          "recovery_mae_log": 4.192456413516037,
+          "ece": 0.04052004055090491,
+          "next_type_acc": 0.5210745715609079,
+          "next_gap_pinball": 0.27763456106185913,
+          "duration_pinball": 0.31449005007743835
+        },
+        "dt_zero": {
+          "settle_auc": 0.8227939455410782,
+          "duration_mae_days": 601.4117717536474,
+          "recovery_mae_log": 4.287384618604985,
+          "ece": 0.02792024818003505,
+          "next_type_acc": 0.508568781843446,
+          "next_gap_pinball": 0.28090667724609375,
+          "duration_pinball": 0.3336634337902069
+        },
+        "dt_log": {
+          "settle_auc": 0.8274752282125303,
+          "duration_mae_days": 318.1283617175628,
+          "recovery_mae_log": 4.49397135507339,
+          "ece": 0.04383240480147777,
+          "next_type_acc": 0.5164427975914775,
+          "next_gap_pinball": 0.27699393033981323,
+          "duration_pinball": 0.3232401907444
+        },
+        "ffres": {
+          "settle_auc": 0.8377165606534085,
+          "duration_mae_days": 313.9933996605141,
+          "recovery_mae_log": 4.250253448332965,
+          "ece": 0.04682649639555321,
+          "next_type_acc": 0.5220009263547939,
+          "next_gap_pinball": 0.2779768407344818,
+          "duration_pinball": 0.31239423155784607
+        },
+        "tf_native_aux": {
+          "settle_auc": 0.8402645745987032,
+          "duration_mae_days": 307.5760708692639,
+          "recovery_mae_log": 4.200475310956428,
+          "ece": 0.04214554978830174,
+          "next_type_acc": 0.5113478462251042,
+          "next_gap_pinball": 0.26185715198516846,
+          "duration_pinball": 0.3052561581134796
+        }
+      },
+      "const_clock_vector": [
+        -0.6794419288635254,
+        -0.8364219069480896,
+        0.2704275846481323,
+        -0.8650466203689575,
+        -0.777086615562439,
+        0.15977796912193298,
+        0.6018555164337158,
+        0.009713956154882908,
+        -0.12563222646713257,
+        -0.8667036294937134,
+        0.18031424283981323,
+        -0.7727332711219788,
+        -0.5223098397254944,
+        -0.5791712403297424,
+        -0.6032916903495789,
+        -0.12895016372203827
+      ]
+    },
+    "7": {
+      "conditions": {
+        "baseline": {
+          "settle_auc": 0.8340795628212847,
+          "duration_mae_days": 228.98062241928096,
+          "recovery_mae_log": 3.472936109251976,
+          "ece": 0.024869167571947827,
+          "next_type_acc": 0.5102040816326531,
+          "next_gap_pinball": 0.27123433351516724,
+          "duration_pinball": 0.3149954378604889
+        },
+        "zero_event_head": {
+          "settle_auc": 0.8252433659056175,
+          "duration_mae_days": 270.195496864985,
+          "recovery_mae_log": 3.4167648428455757,
+          "ece": 0.032226349281534804,
+          "next_type_acc": 0.4504034171808258,
+          "next_gap_pinball": 0.32852351665496826,
+          "duration_pinball": 0.41023048758506775
+        },
+        "zero_event_hard": {
+          "settle_auc": 0.8252433659056175,
+          "duration_mae_days": 270.195496864985,
+          "recovery_mae_log": 3.4167648428455757,
+          "ece": 0.032226349281534804,
+          "next_type_acc": 0.4504034171808258,
+          "next_gap_pinball": 0.32852351665496826,
+          "duration_pinball": 0.41023048758506775
+        },
+        "zero_clock_head": {
+          "settle_auc": 0.8161218913536794,
+          "duration_mae_days": 419.31209781634965,
+          "recovery_mae_log": 3.37589894574492,
+          "ece": 0.04371718126734011,
+          "next_type_acc": 0.49881347887992405,
+          "next_gap_pinball": 0.2918587327003479,
+          "duration_pinball": 0.322407603263855
+        },
+        "zero_clock_hard": {
+          "settle_auc": 0.8161218913536794,
+          "duration_mae_days": 419.31209781634965,
+          "recovery_mae_log": 3.37589894574492,
+          "ece": 0.04371718126734011,
+          "next_type_acc": 0.49881347887992405,
+          "next_gap_pinball": 0.2918587327003479,
+          "duration_pinball": 0.322407603263855
+        },
+        "zero_context_head": {
+          "settle_auc": 0.7802306302968555,
+          "duration_mae_days": 345.71776668868847,
+          "recovery_mae_log": 5.015539205828107,
+          "ece": 0.0695061416468776,
+          "next_type_acc": 0.38348362600854297,
+          "next_gap_pinball": 0.6225685477256775,
+          "duration_pinball": 1.3164677619934082
+        },
+        "zero_context_hard": {
+          "settle_auc": 0.7802306302968555,
+          "duration_mae_days": 345.71776668868847,
+          "recovery_mae_log": 5.015539205828107,
+          "ece": 0.0695061416468776,
+          "next_type_acc": 0.38348362600854297,
+          "next_gap_pinball": 0.6225685477256775,
+          "duration_pinball": 1.3164677619934082
+        },
+        "gate_clamp_0": {
+          "settle_auc": 0.8161218913536794,
+          "duration_mae_days": 419.31209781634965,
+          "recovery_mae_log": 3.37589894574492,
+          "ece": 0.04371718126734011,
+          "next_type_acc": 0.49881347887992405,
+          "next_gap_pinball": 0.2918587327003479,
+          "duration_pinball": 0.322407603263855
+        },
+        "gate_clamp_1": {
+          "settle_auc": 0.8209882832399389,
+          "duration_mae_days": 238.63518626862168,
+          "recovery_mae_log": 3.38623727218629,
+          "ece": 0.06376962340185004,
+          "next_type_acc": 0.4902705268153773,
+          "next_gap_pinball": 0.27162864804267883,
+          "duration_pinball": 0.31689178943634033
+        },
+        "clock_no_flow": {
+          "settle_auc": 0.8161218913536794,
+          "duration_mae_days": 419.31209781634965,
+          "recovery_mae_log": 3.37589894574492,
+          "ece": 0.04371718126734011,
+          "next_type_acc": 0.49881347887992405,
+          "next_gap_pinball": 0.2918587327003479,
+          "duration_pinball": 0.322407603263855
+        },
+        "clock_heads_only": {
+          "settle_auc": 0.8161218913536794,
+          "duration_mae_days": 419.31209781634965,
+          "recovery_mae_log": 3.37589894574492,
+          "ece": 0.04371718126734011,
+          "next_type_acc": 0.49881347887992405,
+          "next_gap_pinball": 0.2918587327003479,
+          "duration_pinball": 0.322407603263855
+        },
+        "clock_const": {
+          "settle_auc": 0.8161218913536794,
+          "duration_mae_days": 256.04465750512594,
+          "recovery_mae_log": 3.493790808714048,
+          "ece": 0.02571712881294436,
+          "next_type_acc": 0.4983388704318937,
+          "next_gap_pinball": 0.28111687302589417,
+          "duration_pinball": 0.3166483938694
+        },
+        "dt_shuffle_phase": {
+          "settle_auc": 0.8337563099152503,
+          "duration_mae_days": 229.02562601877446,
+          "recovery_mae_log": 3.418029605847794,
+          "ece": 0.03089591416347754,
+          "next_type_acc": 0.5073564309444708,
+          "next_gap_pinball": 0.2694331705570221,
+          "duration_pinball": 0.3128783404827118
+        },
+        "dt_phase_median": {
+          "settle_auc": 0.833731301810772,
+          "duration_mae_days": 226.3324158779416,
+          "recovery_mae_log": 3.416995735815992,
+          "ece": 0.035858323853196955,
+          "next_type_acc": 0.5135263407688657,
+          "next_gap_pinball": 0.2696484625339508,
+          "duration_pinball": 0.31318938732147217
+        },
+        "dt_global_median": {
+          "settle_auc": 0.8385467512619831,
+          "duration_mae_days": 228.58334097709195,
+          "recovery_mae_log": 3.3932679418521525,
+          "ece": 0.03955761105151003,
+          "next_type_acc": 0.512577123872805,
+          "next_gap_pinball": 0.2731172740459442,
+          "duration_pinball": 0.3140146732330322
+        },
+        "dt_zero": {
+          "settle_auc": 0.7810392256749873,
+          "duration_mae_days": 354.6746618030726,
+          "recovery_mae_log": 3.9799076636965767,
+          "ece": 0.058748913998987594,
+          "next_type_acc": 0.4674893213099193,
+          "next_gap_pinball": 0.3310299813747406,
+          "duration_pinball": 0.34782540798187256
+        },
+        "dt_log": {
+          "settle_auc": 0.818112351224934,
+          "duration_mae_days": 246.908685234524,
+          "recovery_mae_log": 3.80355073114605,
+          "ece": 0.03865402741885608,
+          "next_type_acc": 0.4983388704318937,
+          "next_gap_pinball": 0.2978585660457611,
+          "duration_pinball": 0.3335585594177246
+        },
+        "ffres": {
+          "settle_auc": 0.8318621775575418,
+          "duration_mae_days": 229.39166122402693,
+          "recovery_mae_log": 3.662438466295808,
+          "ece": 0.027398051656153957,
+          "next_type_acc": 0.5102040816326531,
+          "next_gap_pinball": 0.2729825973510742,
+          "duration_pinball": 0.3135707974433899
+        },
+        "tf_native_aux": {
+          "settle_auc": 0.8473690547862733,
+          "duration_mae_days": 222.05326518586907,
+          "recovery_mae_log": 3.514546478940478,
+          "ece": 0.026687002021453438,
+          "next_type_acc": 0.5116279069767442,
+          "next_gap_pinball": 0.24999189376831055,
+          "duration_pinball": 0.30357789993286133
+        }
+      },
+      "const_clock_vector": [
+        0.6319527626037598,
+        -0.3522113859653473,
+        0.03273941949009895,
+        -0.24110141396522522,
+        0.07911600172519684,
+        -0.18721842765808105,
+        -0.30279794335365295,
+        0.21081407368183136,
+        -0.677094578742981,
+        -0.009866276755928993,
+        -0.10564880073070526,
+        -0.369978666305542,
+        0.6311432123184204,
+        -0.5686601400375366,
+        0.615433931350708,
+        0.7238566279411316
+      ]
+    },
+    "8": {
+      "conditions": {
+        "baseline": {
+          "settle_auc": 0.8661664802020738,
+          "duration_mae_days": 248.30723804288894,
+          "recovery_mae_log": 4.3235867997774715,
+          "ece": 0.02958832690785346,
+          "next_type_acc": 0.539827255278311,
+          "next_gap_pinball": 0.24643565714359283,
+          "duration_pinball": 0.2848135232925415
+        },
+        "zero_event_head": {
+          "settle_auc": 0.8626025074681953,
+          "duration_mae_days": 260.3478363602563,
+          "recovery_mae_log": 4.178144099724876,
+          "ece": 0.06257844578891575,
+          "next_type_acc": 0.4985604606525912,
+          "next_gap_pinball": 0.2649024724960327,
+          "duration_pinball": 0.3460695445537567
+        },
+        "zero_event_hard": {
+          "settle_auc": 0.8626025074681953,
+          "duration_mae_days": 260.3478363602563,
+          "recovery_mae_log": 4.178144099724876,
+          "ece": 0.06257844578891575,
+          "next_type_acc": 0.4985604606525912,
+          "next_gap_pinball": 0.2649024724960327,
+          "duration_pinball": 0.3460695445537567
+        },
+        "zero_clock_head": {
+          "settle_auc": 0.8589462635955756,
+          "duration_mae_days": 342.6010178761347,
+          "recovery_mae_log": 4.2152776360720186,
+          "ece": 0.043826011420631375,
+          "next_type_acc": 0.5359884836852208,
+          "next_gap_pinball": 0.2966206669807434,
+          "duration_pinball": 0.31532588601112366
+        },
+        "zero_clock_hard": {
+          "settle_auc": 0.8589462635955756,
+          "duration_mae_days": 342.6010178761347,
+          "recovery_mae_log": 4.2152776360720186,
+          "ece": 0.043826011420631375,
+          "next_type_acc": 0.5359884836852208,
+          "next_gap_pinball": 0.2966206669807434,
+          "duration_pinball": 0.31532588601112366
+        },
+        "zero_context_head": {
+          "settle_auc": 0.8033293541404751,
+          "duration_mae_days": 363.0045845251909,
+          "recovery_mae_log": 5.763780532912775,
+          "ece": 0.08234079271209771,
+          "next_type_acc": 0.4246641074856046,
+          "next_gap_pinball": 0.6694738268852234,
+          "duration_pinball": 1.328786849975586
+        },
+        "zero_context_hard": {
+          "settle_auc": 0.8033293541404751,
+          "duration_mae_days": 363.0045845251909,
+          "recovery_mae_log": 5.763780532912775,
+          "ece": 0.08234079271209771,
+          "next_type_acc": 0.4246641074856046,
+          "next_gap_pinball": 0.6694738268852234,
+          "duration_pinball": 1.328786849975586
+        },
+        "gate_clamp_0": {
+          "settle_auc": 0.8589462635955756,
+          "duration_mae_days": 342.6010178761347,
+          "recovery_mae_log": 4.2152776360720186,
+          "ece": 0.043826011420631375,
+          "next_type_acc": 0.5359884836852208,
+          "next_gap_pinball": 0.2966206669807434,
+          "duration_pinball": 0.31532588601112366
+        },
+        "gate_clamp_1": {
+          "settle_auc": 0.862718807549317,
+          "duration_mae_days": 253.10895534170703,
+          "recovery_mae_log": 4.250799657477366,
+          "ece": 0.03722750041080262,
+          "next_type_acc": 0.525911708253359,
+          "next_gap_pinball": 0.246742844581604,
+          "duration_pinball": 0.2866829037666321
+        },
+        "clock_no_flow": {
+          "settle_auc": 0.8589462635955756,
+          "duration_mae_days": 342.6010178761347,
+          "recovery_mae_log": 4.2152776360720186,
+          "ece": 0.043826011420631375,
+          "next_type_acc": 0.5359884836852208,
+          "next_gap_pinball": 0.2966206669807434,
+          "duration_pinball": 0.31532588601112366
+        },
+        "clock_heads_only": {
+          "settle_auc": 0.8589462635955756,
+          "duration_mae_days": 342.6010178761347,
+          "recovery_mae_log": 4.2152776360720186,
+          "ece": 0.043826011420631375,
+          "next_type_acc": 0.5359884836852208,
+          "next_gap_pinball": 0.2966206669807434,
+          "duration_pinball": 0.31532588601112366
+        },
+        "clock_const": {
+          "settle_auc": 0.8589462635955756,
+          "duration_mae_days": 263.38335672539023,
+          "recovery_mae_log": 4.372198233967061,
+          "ece": 0.03038372942962899,
+          "next_type_acc": 0.5345489443378119,
+          "next_gap_pinball": 0.2581436336040497,
+          "duration_pinball": 0.28784167766571045
+        },
+        "dt_shuffle_phase": {
+          "settle_auc": 0.8699793927790145,
+          "duration_mae_days": 248.9299543612771,
+          "recovery_mae_log": 4.386952454706172,
+          "ece": 0.030222742434043985,
+          "next_type_acc": 0.5431861804222649,
+          "next_gap_pinball": 0.24414469301700592,
+          "duration_pinball": 0.2823655307292938
+        },
+        "dt_phase_median": {
+          "settle_auc": 0.8746458133893111,
+          "duration_mae_days": 239.34541317295393,
+          "recovery_mae_log": 4.342414917124735,
+          "ece": 0.03573571476951841,
+          "next_type_acc": 0.5441458733205374,
+          "next_gap_pinball": 0.24121859669685364,
+          "duration_pinball": 0.2813577950000763
+        },
+        "dt_global_median": {
+          "settle_auc": 0.8549238186410768,
+          "duration_mae_days": 257.90698486095255,
+          "recovery_mae_log": 4.345111544628243,
+          "ece": 0.034293697427280924,
+          "next_type_acc": 0.5345489443378119,
+          "next_gap_pinball": 0.2544545829296112,
+          "duration_pinball": 0.2864731252193451
+        },
+        "dt_zero": {
+          "settle_auc": 0.8541481643810337,
+          "duration_mae_days": 254.58553008706798,
+          "recovery_mae_log": 4.169248211529705,
+          "ece": 0.10338298761989217,
+          "next_type_acc": 0.5153550863723608,
+          "next_gap_pinball": 0.36408498883247375,
+          "duration_pinball": 0.3359522223472595
+        },
+        "dt_log": {
+          "settle_auc": 0.8554063198040777,
+          "duration_mae_days": 267.68111943578197,
+          "recovery_mae_log": 4.178030004555529,
+          "ece": 0.11929373939560686,
+          "next_type_acc": 0.519193857965451,
+          "next_gap_pinball": 0.32761329412460327,
+          "duration_pinball": 0.31549158692359924
+        },
+        "ffres": {
+          "settle_auc": 0.8663731291065463,
+          "duration_mae_days": 245.77778260622193,
+          "recovery_mae_log": 4.3242278471068065,
+          "ece": 0.022264236255412125,
+          "next_type_acc": 0.5431861804222649,
+          "next_gap_pinball": 0.24852648377418518,
+          "duration_pinball": 0.28176143765449524
+        },
+        "tf_native_aux": {
+          "settle_auc": 0.8608599285667601,
+          "duration_mae_days": 246.7322180109311,
+          "recovery_mae_log": 4.278034064840604,
+          "ece": 0.023704301977002587,
+          "next_type_acc": 0.5220729366602687,
+          "next_gap_pinball": 0.2448330670595169,
+          "duration_pinball": 0.2928500473499298
+        }
+      },
+      "const_clock_vector": [
+        0.26594534516334534,
+        0.8560330867767334,
+        -0.1262255609035492,
+        0.0233104657381773,
+        0.45449453592300415,
+        -0.577842116355896,
+        0.4302257001399994,
+        -0.6048679351806641,
+        -0.7435294985771179,
+        0.23437224328517914,
+        0.19674165546894073,
+        0.573250412940979,
+        0.179249569773674,
+        -0.5527612566947937,
+        0.15501441061496735,
+        0.13738639652729034
+      ]
+    },
+    "9": {
+      "conditions": {
+        "baseline": {
+          "settle_auc": 0.8493670242453482,
+          "duration_mae_days": 271.18753493564486,
+          "recovery_mae_log": 4.0321896846243215,
+          "ece": 0.028355191382181705,
+          "next_type_acc": 0.5370277078085642,
+          "next_gap_pinball": 0.25970616936683655,
+          "duration_pinball": 0.2884400486946106
+        },
+        "zero_event_head": {
+          "settle_auc": 0.8453744170426919,
+          "duration_mae_days": 282.2766197223114,
+          "recovery_mae_log": 4.090413400929722,
+          "ece": 0.025820642617833622,
+          "next_type_acc": 0.43073047858942065,
+          "next_gap_pinball": 0.27879035472869873,
+          "duration_pinball": 0.3321816623210907
+        },
+        "zero_event_hard": {
+          "settle_auc": 0.8453744170426919,
+          "duration_mae_days": 282.2766197223114,
+          "recovery_mae_log": 4.090413400929722,
+          "ece": 0.025820642617833622,
+          "next_type_acc": 0.43073047858942065,
+          "next_gap_pinball": 0.27879035472869873,
+          "duration_pinball": 0.3321816623210907
+        },
+        "zero_clock_head": {
+          "settle_auc": 0.8491222531240836,
+          "duration_mae_days": 1036.1916013363368,
+          "recovery_mae_log": 3.938192130768882,
+          "ece": 0.02914660806904214,
+          "next_type_acc": 0.5496221662468513,
+          "next_gap_pinball": 0.26245659589767456,
+          "duration_pinball": 0.28827738761901855
+        },
+        "zero_clock_hard": {
+          "settle_auc": 0.8491222531240836,
+          "duration_mae_days": 1036.1916013363368,
+          "recovery_mae_log": 3.938192130768882,
+          "ece": 0.02914660806904214,
+          "next_type_acc": 0.5496221662468513,
+          "next_gap_pinball": 0.26245659589767456,
+          "duration_pinball": 0.28827738761901855
+        },
+        "zero_context_head": {
+          "settle_auc": 0.8139538458627769,
+          "duration_mae_days": 421.86977590947185,
+          "recovery_mae_log": 5.497940469953555,
+          "ece": 0.09227808295502789,
+          "next_type_acc": 0.41662468513853906,
+          "next_gap_pinball": 0.8218032717704773,
+          "duration_pinball": 1.6603823900222778
+        },
+        "zero_context_hard": {
+          "settle_auc": 0.8139538458627769,
+          "duration_mae_days": 421.86977590947185,
+          "recovery_mae_log": 5.497940469953555,
+          "ece": 0.09227808295502789,
+          "next_type_acc": 0.41662468513853906,
+          "next_gap_pinball": 0.8218032717704773,
+          "duration_pinball": 1.6603823900222778
+        },
+        "gate_clamp_0": {
+          "settle_auc": 0.8491222531240836,
+          "duration_mae_days": 1036.1916013363368,
+          "recovery_mae_log": 3.938192130768882,
+          "ece": 0.02914660806904214,
+          "next_type_acc": 0.5496221662468513,
+          "next_gap_pinball": 0.26245659589767456,
+          "duration_pinball": 0.28827738761901855
+        },
+        "gate_clamp_1": {
+          "settle_auc": 0.8503638457681792,
+          "duration_mae_days": 284.10850373553933,
+          "recovery_mae_log": 4.0294608551380895,
+          "ece": 0.025030916606919737,
+          "next_type_acc": 0.5390428211586902,
+          "next_gap_pinball": 0.2600116431713104,
+          "duration_pinball": 0.287945419549942
+        },
+        "clock_no_flow": {
+          "settle_auc": 0.8491222531240836,
+          "duration_mae_days": 1036.1916013363368,
+          "recovery_mae_log": 3.938192130768882,
+          "ece": 0.02914660806904214,
+          "next_type_acc": 0.5496221662468513,
+          "next_gap_pinball": 0.26245659589767456,
+          "duration_pinball": 0.28827738761901855
+        },
+        "clock_heads_only": {
+          "settle_auc": 0.8491222531240836,
+          "duration_mae_days": 1036.1916013363368,
+          "recovery_mae_log": 3.938192130768882,
+          "ece": 0.02914660806904214,
+          "next_type_acc": 0.5496221662468513,
+          "next_gap_pinball": 0.26245659589767456,
+          "duration_pinball": 0.28827738761901855
+        },
+        "clock_const": {
+          "settle_auc": 0.8491216618894911,
+          "duration_mae_days": 295.49650521592974,
+          "recovery_mae_log": 3.9961169390114217,
+          "ece": 0.02729139034880956,
+          "next_type_acc": 0.5390428211586902,
+          "next_gap_pinball": 0.2624299228191376,
+          "duration_pinball": 0.2886437177658081
+        },
+        "dt_shuffle_phase": {
+          "settle_auc": 0.8507333673884458,
+          "duration_mae_days": 281.0699846625646,
+          "recovery_mae_log": 4.02149337042734,
+          "ece": 0.034317519160071815,
+          "next_type_acc": 0.5395465994962216,
+          "next_gap_pinball": 0.2581021189689636,
+          "duration_pinball": 0.28628140687942505
+        },
+        "dt_phase_median": {
+          "settle_auc": 0.8493096744898828,
+          "duration_mae_days": 271.1373196332103,
+          "recovery_mae_log": 4.024454520248615,
+          "ece": 0.031188133785772565,
+          "next_type_acc": 0.5370277078085642,
+          "next_gap_pinball": 0.2576504051685333,
+          "duration_pinball": 0.28519749641418457
+        },
+        "dt_global_median": {
+          "settle_auc": 0.8489034963248858,
+          "duration_mae_days": 271.53947957482626,
+          "recovery_mae_log": 4.007171099563885,
+          "ece": 0.036015817636003665,
+          "next_type_acc": 0.5390428211586902,
+          "next_gap_pinball": 0.2607850730419159,
+          "duration_pinball": 0.2863845229148865
+        },
+        "dt_zero": {
+          "settle_auc": 0.850357933422255,
+          "duration_mae_days": 880.603257446702,
+          "recovery_mae_log": 4.194974841783993,
+          "ece": 0.04325329385061359,
+          "next_type_acc": 0.5143576826196473,
+          "next_gap_pinball": 0.2886388301849365,
+          "duration_pinball": 0.30314376950263977
+        },
+        "dt_log": {
+          "settle_auc": 0.8487947091598793,
+          "duration_mae_days": 308.35464655161076,
+          "recovery_mae_log": 4.273067669979564,
+          "ece": 0.03446801566012976,
+          "next_type_acc": 0.5440806045340051,
+          "next_gap_pinball": 0.2761676013469696,
+          "duration_pinball": 0.2974098324775696
+        },
+        "ffres": {
+          "settle_auc": 0.8515037460623777,
+          "duration_mae_days": 278.1929327102688,
+          "recovery_mae_log": 4.069040904474237,
+          "ece": 0.02023596278114807,
+          "next_type_acc": 0.5395465994962216,
+          "next_gap_pinball": 0.2610830068588257,
+          "duration_pinball": 0.2875945568084717
+        },
+        "tf_native_aux": {
+          "settle_auc": 0.8502674745296137,
+          "duration_mae_days": 272.6143338850304,
+          "recovery_mae_log": 4.0340545797195535,
+          "ece": 0.03209959486539422,
+          "next_type_acc": 0.5455919395465995,
+          "next_gap_pinball": 0.2589542269706726,
+          "duration_pinball": 0.2946113049983978
+        }
+      },
+      "const_clock_vector": [
+        -0.736031711101532,
+        -0.8207735419273376,
+        -0.7947027087211609,
+        0.6997696161270142,
+        0.652395486831665,
+        -0.7845895290374756,
+        0.7291781902313232,
+        -0.24519243836402893,
+        -0.5082686543464661,
+        0.6096657514572144,
+        -0.8560044169425964,
+        0.27661821246147156,
+        -0.3932607173919678,
+        -0.23901581764221191,
+        0.7484722137451172,
+        0.6897786259651184
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+seed=0 trained cfc-native           auc=0.901 (7s)
+seed=0 trained cfc-timespans_only   auc=0.892 (13s)
+seed=0 trained cfc-feature          auc=0.897 (19s)
+seed=0 trained lstm-feature         auc=0.902 (21s)
+/Users/jam3/Projects/liquid_neural/src/liquid_legal/baselines.py:129: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer, num_layers=num_layers)
+seed=0 trained tf-native            auc=0.913 (27s)
+seed=0 trained tf-feature           auc=0.910 (32s)
+seed=0 trained xgb                  auc=0.909 (37s)
+seed=0 trained xgb-no-time          auc=0.842 (37s)
+seed=1 trained cfc-native           auc=0.876 (43s)
+seed=1 trained cfc-timespans_only   auc=0.846 (49s)
+seed=1 trained cfc-feature          auc=0.866 (55s)
+seed=1 trained lstm-feature         auc=0.891 (58s)
+seed=1 trained tf-native            auc=0.890 (63s)
+seed=1 trained tf-feature           auc=0.888 (69s)
+seed=1 trained xgb                  auc=0.882 (73s)
+seed=1 trained xgb-no-time          auc=0.841 (73s)
+seed=2 trained cfc-native           auc=0.838 (79s)
+seed=2 trained cfc-timespans_only   auc=0.865 (85s)
+seed=2 trained cfc-feature          auc=0.864 (91s)
+seed=2 trained lstm-feature         auc=0.901 (94s)
+seed=2 trained tf-native            auc=0.902 (99s)
+seed=2 trained tf-feature           auc=0.896 (105s)
+seed=2 trained xgb                  auc=0.890 (109s)
+seed=2 trained xgb-no-time          auc=0.859 (109s)
+
+wrote /Users/jam3/Projects/liquid_neural/experiments/results/results_hidden_statics.json (109s)
+
+=== E6: hidden statics (mean ± std over seeds) ===
+cfc-native           auc=0.872±0.026 dur_mae=163±24d
+cfc-timespans_only   auc=0.868±0.019 dur_mae=164±22d
+cfc-feature          auc=0.876±0.015 dur_mae=167±20d
+lstm-feature         auc=0.898±0.005 dur_mae=160±22d
+tf-native            auc=0.902±0.010 dur_mae=158±25d
+tf-feature           auc=0.898±0.009 dur_mae=159±22d
+xgb                  auc=0.894±0.011 dur_mae=164±24d
+xgb-no-time          auc=0.847±0.008 dur_mae=188±30d

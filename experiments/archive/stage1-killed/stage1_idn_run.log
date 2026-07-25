@@ -1,0 +1,38 @@
+/Users/jam3/Projects/liquid_neural/.venv/lib/python3.14/site-packages/torch/nn/modules/transformer.py:429: UserWarning: Support for mismatched src_key_padding_mask and mask is deprecated. Use same type for both instead.
+  src_key_padding_mask = F._canonical_mask(
+  lr=0.001 inner_val_auc=0.871
+  lr=0.003 inner_val_auc=0.895
+selected lr=0.003 for idn/visible (17s)
+  lr=0.001 inner_val_auc=0.875
+  lr=0.003 inner_val_auc=0.868
+selected lr=0.001 for idn/hidden (34s)
+seed=0 idn/visible auc=0.872 (47s)
+seed=0 idn/hidden auc=0.864 (60s)
+seed=1 idn/visible auc=0.825 (73s)
+seed=1 idn/hidden auc=0.826 (87s)
+seed=2 idn/visible auc=0.858 (101s)
+seed=2 idn/hidden auc=0.850 (114s)
+seed=3 idn/visible auc=0.849 (127s)
+seed=3 idn/hidden auc=0.836 (141s)
+seed=4 idn/visible auc=0.864 (154s)
+seed=4 idn/hidden auc=0.867 (166s)
+seed=5 idn/visible auc=0.824 (179s)
+seed=5 idn/hidden auc=0.822 (193s)
+seed=6 idn/visible auc=0.829 (205s)
+seed=6 idn/hidden auc=0.837 (218s)
+seed=7 idn/visible auc=0.847 (231s)
+seed=7 idn/hidden auc=0.834 (244s)
+seed=8 idn/visible auc=0.858 (258s)
+seed=8 idn/hidden auc=0.866 (270s)
+seed=9 idn/visible auc=0.855 (283s)
+seed=9 idn/hidden auc=0.849 (297s)
+
+wrote /Users/jam3/Projects/liquid_neural/experiments/results/stage1_idn.json (297s)
+
+=== paired primary screen (hidden statics, 10 seeds) ===
+per-seed ΔAUC (IDN − tf-native-aux): ['-0.003', '-0.006', '-0.011', '-0.010', '+0.004', '-0.002', '-0.003', '-0.013', '+0.005', '-0.001']
+mean ΔAUC = -0.0039, 95% paired CI = [-0.0082, +0.0004]
+duration MAE: IDN 308d vs tf-aux 304d (ok)
+ECE: IDN 0.043 vs tf-aux 0.039 (ok)
+
+PROVISIONAL SURVIVAL: FAIL — stop the hybrid track

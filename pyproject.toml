@@ -1,0 +1,81 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "liquid-legal"
+version = "0.1.0"
+description = "Liquid neural networks (LTC/CfC) for legal case trajectory modeling: settlement probability, expected recovery, and remaining duration from irregular docket event streams."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [{ name = "J.A. Marin", email = "john.marin@argentislabs.io" }]
+keywords = [
+    "liquid-neural-networks",
+    "legal-tech",
+    "litigation-finance",
+    "cfc",
+    "ltc",
+    "irregular-time-series",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Legal Industry",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "torch>=2.0",
+    "ncps>=1.0",
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "build", "twine"]
+experiments = ["xgboost>=2.0", "scikit-learn>=1.4"]
+
+[project.scripts]
+liquid-legal = "liquid_legal.cli:main"
+
+[project.urls]
+Homepage = "https://argentislabs.io"
+Research = "https://argentislabs.io/research/"
+"Upstream fix (ncps#85)" = "https://github.com/mlech26l/ncps/pull/85"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/liquid_legal"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "src/liquid_legal",
+  "tests",
+  "examples",
+  "paper/exit-paper.md",
+  "paper/figures/*.pdf",
+  "paper/figures/*.png",
+  "paper/figures/make_figures.py",
+  "experiments/*.md",
+  "experiments/*.py",
+  "docs/primer.md",
+  "README.md",
+  "LICENSE",
+  "NOTICE",
+  "conftest.py",
+]
+exclude = [
+  ".ncps-upstream",
+  "experiments/archive",
+  "experiments/results",
+  "experiments/__pycache__",
+  "dist",
+  "pr",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

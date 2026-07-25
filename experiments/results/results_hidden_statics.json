@@ -1,0 +1,176 @@
+{
+  "config": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "cases": 1024,
+    "epochs": 25,
+    "statics": "zeroed"
+  },
+  "params": {
+    "cfc-native": 15898,
+    "cfc-timespans_only": 15898,
+    "cfc-feature": 15898,
+    "lstm-feature": 24259,
+    "tf-native": 22403,
+    "tf-feature": 22403
+  },
+  "e6": {
+    "cfc-native": [
+      {
+        "bce": 0.3869580761470261,
+        "settle_auc": 0.9010898681178131,
+        "duration_mae_days": 192.35471786304328,
+        "recovery_mae_log": 2.7717752907617905
+      },
+      {
+        "bce": 0.4176623246363882,
+        "settle_auc": 0.8761191067853938,
+        "duration_mae_days": 133.48349113767148,
+        "recovery_mae_log": 3.3865957038851624
+      },
+      {
+        "bce": 0.4709353536109211,
+        "settle_auc": 0.8383376339041364,
+        "duration_mae_days": 162.11640127423632,
+        "recovery_mae_log": 3.4453917369416356
+      }
+    ],
+    "cfc-timespans_only": [
+      {
+        "bce": 0.3948135958373092,
+        "settle_auc": 0.8918646005526262,
+        "duration_mae_days": 193.43516123910564,
+        "recovery_mae_log": 2.708100625071311
+      },
+      {
+        "bce": 0.46851779982867947,
+        "settle_auc": 0.8457039069510596,
+        "duration_mae_days": 140.95542046353816,
+        "recovery_mae_log": 3.4405271616494035
+      },
+      {
+        "bce": 0.432723226690749,
+        "settle_auc": 0.8654042970955943,
+        "duration_mae_days": 158.13593163055378,
+        "recovery_mae_log": 3.126257546133936
+      }
+    ],
+    "cfc-feature": [
+      {
+        "bce": 0.38328884859222595,
+        "settle_auc": 0.8971774436816005,
+        "duration_mae_days": 193.75090367520647,
+        "recovery_mae_log": 2.60715384883735
+      },
+      {
+        "bce": 0.4467717067451234,
+        "settle_auc": 0.8657175398633258,
+        "duration_mae_days": 146.6789448253114,
+        "recovery_mae_log": 3.338706960669423
+      },
+      {
+        "bce": 0.44006052639078885,
+        "settle_auc": 0.8640011815709681,
+        "duration_mae_days": 161.45636384918708,
+        "recovery_mae_log": 3.4536873790916656
+      }
+    ],
+    "lstm-feature": [
+      {
+        "bce": 0.3763703402065442,
+        "settle_auc": 0.9023530352208695,
+        "duration_mae_days": 185.99309288696517,
+        "recovery_mae_log": 2.454299520293568
+      },
+      {
+        "bce": 0.3945051198443898,
+        "settle_auc": 0.890793470007593,
+        "duration_mae_days": 133.27773791161215,
+        "recovery_mae_log": 3.224782202003
+      },
+      {
+        "bce": 0.3733858107650764,
+        "settle_auc": 0.9011737517484644,
+        "duration_mae_days": 159.45003562489273,
+        "recovery_mae_log": 3.395310249058993
+      }
+    ],
+    "tf-native": [
+      {
+        "bce": 0.35282420384064883,
+        "settle_auc": 0.9134877589681094,
+        "duration_mae_days": 190.4504000944117,
+        "recovery_mae_log": 2.5634414447981793
+      },
+      {
+        "bce": 0.3969748221927605,
+        "settle_auc": 0.8897908469662456,
+        "duration_mae_days": 131.12146587927197,
+        "recovery_mae_log": 3.195545340148398
+      },
+      {
+        "bce": 0.37836993104836414,
+        "settle_auc": 0.9015377798629031,
+        "duration_mae_days": 152.55198059006673,
+        "recovery_mae_log": 3.4169207515099034
+      }
+    ],
+    "tf-feature": [
+      {
+        "bce": 0.35886903977980544,
+        "settle_auc": 0.9104644533465256,
+        "duration_mae_days": 188.09389820436002,
+        "recovery_mae_log": 2.611552186493554
+      },
+      {
+        "bce": 0.4091114047660515,
+        "settle_auc": 0.8876863739904742,
+        "duration_mae_days": 135.56906726191775,
+        "recovery_mae_log": 3.28404428765815
+      },
+      {
+        "bce": 0.39432301240808826,
+        "settle_auc": 0.8957984726457633,
+        "duration_mae_days": 152.5309941840204,
+        "recovery_mae_log": 3.374389523629233
+      }
+    ],
+    "xgb": [
+      {
+        "settle_auc": 0.9088389269640552,
+        "duration_mae_days": 194.5809967520382,
+        "recovery_mae_log": 2.855391658229137
+      },
+      {
+        "settle_auc": 0.882108096914475,
+        "duration_mae_days": 136.59835751846296,
+        "recovery_mae_log": 3.5251475945403214
+      },
+      {
+        "settle_auc": 0.8903554269728325,
+        "duration_mae_days": 160.85440462581488,
+        "recovery_mae_log": 3.5209738886715547
+      }
+    ],
+    "xgb-no-time": [
+      {
+        "settle_auc": 0.8419012512518551,
+        "duration_mae_days": 229.20071395421093,
+        "recovery_mae_log": 2.803325231919307
+      },
+      {
+        "settle_auc": 0.8412999585835577,
+        "duration_mae_days": 157.65229352717185,
+        "recovery_mae_log": 3.510292187156842
+      },
+      {
+        "settle_auc": 0.8586980130494087,
+        "duration_mae_days": 177.3488331531952,
+        "recovery_mae_log": 3.4544036956041086
+      }
+    ]
+  }
+}

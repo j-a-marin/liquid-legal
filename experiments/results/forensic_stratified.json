@@ -1,0 +1,88 @@
+{
+  "delta_quartile": {
+    "delta_quartile[0]": {
+      "mean_delta": -0.002723256529956275,
+      "ci95": 0.0052953850466533415,
+      "seeds": 10,
+      "mean_steps": 573.6
+    },
+    "delta_quartile[1]": {
+      "mean_delta": -0.00578501105572653,
+      "ci95": 0.005744625276126545,
+      "seeds": 10,
+      "mean_steps": 573.0
+    },
+    "delta_quartile[2]": {
+      "mean_delta": -0.005307177609982483,
+      "ci95": 0.007392336191339656,
+      "seeds": 10,
+      "mean_steps": 572.8
+    },
+    "delta_quartile[3]": {
+      "mean_delta": 0.0008627023793429944,
+      "ci95": 0.00778380010157364,
+      "seeds": 10,
+      "mean_steps": 573.2
+    }
+  },
+  "long_gap": {
+    "long_gap[0]": {
+      "mean_delta": -0.0038094539157853768,
+      "ci95": 0.00504357726764847,
+      "seeds": 10,
+      "mean_steps": 1786.3
+    },
+    "long_gap[1]": {
+      "mean_delta": -0.0010212645009454514,
+      "ci95": 0.00858834374956033,
+      "seeds": 10,
+      "mean_steps": 506.3
+    }
+  },
+  "age_quartile": {
+    "age_quartile[0]": {
+      "mean_delta": -0.004203957613905573,
+      "ci95": 0.008254796965096362,
+      "seeds": 10,
+      "mean_steps": 573.8
+    },
+    "age_quartile[1]": {
+      "mean_delta": -0.003225582104732372,
+      "ci95": 0.009177366289224394,
+      "seeds": 10,
+      "mean_steps": 572.8
+    },
+    "age_quartile[2]": {
+      "mean_delta": -0.002882757368829625,
+      "ci95": 0.007734388370460561,
+      "seeds": 10,
+      "mean_steps": 572.8
+    },
+    "age_quartile[3]": {
+      "mean_delta": 0.0031668211840473748,
+      "ci95": 0.009677808815992228,
+      "seeds": 10,
+      "mean_steps": 573.2
+    }
+  },
+  "phase": {
+    "phase[0]": {
+      "mean_delta": -0.019071586576591304,
+      "ci95": 0.01964079303891757,
+      "seeds": 10,
+      "mean_steps": 847.8
+    },
+    "phase[1]": {
+      "mean_delta": -0.011723843713563309,
+      "ci95": 0.01274266295692923,
+      "seeds": 10,
+      "mean_steps": 749.9
+    },
+    "phase[2]": {
+      "mean_delta": 0.006570458344954133,
+      "ci95": 0.011848417948112148,
+      "seeds": 10,
+      "mean_steps": 694.9
+    }
+  }
+}

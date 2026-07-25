@@ -1,0 +1,44 @@
+{
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "cases": 1024,
+  "regime": "hidden statics",
+  "holdout": "20% via np.random.default_rng(seed).permutation (Stage-1 split)",
+  "metrics": [
+    "settle_auc",
+    "duration_mae_days",
+    "recovery_mae_log",
+    "ece",
+    "next_type_acc",
+    "next_gap_pinball",
+    "duration_pinball"
+  ],
+  "ece_bins": 15,
+  "quantile_levels": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "paired_interval": "mean +/- 95% t-interval, df=9 (t=2.262)",
+  "ffres": {
+    "hidden": 32,
+    "params": 1616,
+    "param_target": [
+      1280,
+      1920
+    ],
+    "lr": 0.001,
+    "epochs": 25,
+    "note": "new exploratory model; archived weights frozen"
+  }
+}

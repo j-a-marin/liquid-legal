@@ -1,0 +1,47 @@
+{
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "cases": 1024,
+  "epochs": 25,
+  "lr_grid": [
+    0.001,
+    0.003
+  ],
+  "selected_lr": {
+    "hidden": 0.001,
+    "visible": 0.003
+  },
+  "regimes": [
+    "hidden",
+    "visible"
+  ],
+  "primary_regime": "hidden",
+  "loss": {
+    "settle_bce": 1.0,
+    "recovery_log1p_mse": 0.3,
+    "duration_log1p_mse": 0.3,
+    "duration_pinball": 0.2,
+    "tpp_nll": 0.3
+  },
+  "quantile_levels": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "params": 23030,
+  "j_margin": 0.03,
+  "batch_size": 32,
+  "grad_clip": 1.0,
+  "optimizer": "Adam(0.9, 0.999)",
+  "device": "cpu"
+}

@@ -208,4 +208,4 @@ capital allocation decision.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT — see [LICENSE](https://github.com/j-a-marin/liquid-legal/blob/main/LICENSE).

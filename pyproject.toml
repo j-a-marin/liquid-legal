@@ -45,6 +45,7 @@ liquid-legal = "liquid_legal.cli:main"
 
 [project.urls]
 Homepage = "https://argentislabs.io"
+Repository = "https://github.com/j-a-marin/liquid-legal"
 Research = "https://argentislabs.io/research/"
 "Upstream fix (ncps#85)" = "https://github.com/mlech26l/ncps/pull/85"
 

@@ -2,7 +2,7 @@
 
 *A primer on irregular legal-event modeling, continuous-time neural networks,
 and what our experiments actually show. Revised July 22, 2026; the prior
-version is preserved in the source repository's `docs/archive/`.*
+version is preserved in [`docs/archive/`](https://github.com/j-a-marin/liquid-legal/tree/main/docs/archive).*
 
 ---
 

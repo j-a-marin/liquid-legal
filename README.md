@@ -10,6 +10,8 @@ duration at every docket prefix, with models small enough to audit.
 > and no real-docket validation yet. The benchmark section below reports the
 > honest state of play — including where conventional baselines win.
 
+![A matter trajectory crossing the institutional field: filings and rulings as impulses, silence as drift, the settlement basin as terminal boundary](https://raw.githubusercontent.com/j-a-marin/liquid-legal/main/article/fig_institutional_field_3d.png)
+
 During this work we found and fixed an upstream `ncps` bug — batched
 irregular-timespan broadcasting in torch CfC/LTC
 ([mlech26l/ncps#85](https://github.com/mlech26l/ncps/pull/85)); the packaged
@@ -70,12 +72,10 @@ data is wired in.
 pip install liquid-legal   # available once the 0.1.0 release is live on PyPI
 ```
 
-For development (no public source repository yet — work from the source
-distribution):
+For development:
 
 ```bash
-pip download liquid-legal --no-deps --no-binary :all: && tar -xzf liquid_legal-*.tar.gz
-cd liquid_legal-*/
+git clone https://github.com/j-a-marin/liquid-legal && cd liquid-legal
 python -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"
 pytest
@@ -183,7 +183,7 @@ latent traits are never directly observed.
 
 ## References
 
-- [Litigation Physics: Learning Institutional Dynamics](docs/primer.md) (ships in the sdist; relative link — browse locally) — the
+- [Litigation Physics: Learning Institutional Dynamics](https://github.com/j-a-marin/liquid-legal/blob/main/docs/primer.md) — the
   accessible, diagram-ready version of this project's motivation.
 - Hasani, Lechner, Amini, Rus, Grosu. *Liquid Time-constant Networks.* AAAI 2021.
 - Hasani, Lechner, Amini, et al. *Closed-form Continuous-time Neural Networks.* Nature Machine Intelligence, 2022.

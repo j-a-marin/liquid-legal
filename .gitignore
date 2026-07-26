@@ -5,5 +5,10 @@ dist/
 out/
 .ncps-upstream/
 pr/
+docs/LOCAL_SUCCESSOR_0.2.0.md
 .DS_Store
 *.egg-info/
+
+# private drafting material — never publish strategy/scaffolds/working drafts
+article/LINKEDIN_WP_SCAFFOLD.md
+article/linkedin_wp_*
